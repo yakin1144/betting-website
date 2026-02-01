@@ -1,0 +1,18 @@
+.menu-loader[data-v-59d56d7a] {
+  align-items: center;
+  -moz-column-gap: 0.5rem;
+  column-gap: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+[dir] .menu-loader[data-v-59d56d7a] {
+  padding: 0.5rem 1rem;
+}
+.menu-loader__item[data-v-59d56d7a] {
+  flex-grow: 1;
+  height: 100%;
+}
+[dir] .menu-loader__item[data-v-59d56d7a] {
+  background-color: currentColor;
+  border-radius: var(--border-radius);
+}

@@ -1,0 +1,18 @@
+.banners-widget-loader[data-v-30bcebf0] {
+  display: flex;
+  gap: 1.5rem;
+  height: 4rem;
+  justify-content: space-between;
+}
+[dir] .banners-widget-loader[data-v-30bcebf0] {
+  border-radius: var(--border-radius);
+  padding: 1.25rem 1rem;
+}
+.banners-widget-loader__item[data-v-30bcebf0] {
+  height: 1.5rem;
+  width: 100%;
+}
+[dir] .banners-widget-loader__item[data-v-30bcebf0] {
+  background-color: currentColor;
+  border-radius: var(--border-radius);
+}

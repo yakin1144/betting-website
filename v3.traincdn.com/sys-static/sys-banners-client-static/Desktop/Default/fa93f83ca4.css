@@ -1,0 +1,51 @@
+.event-garland[data-v-378c63bf] {
+  height: 4.125rem;
+  pointer-events: none;
+}
+[dir] .event-garland[data-v-378c63bf] {
+  background-repeat: repeat-x;
+  background-size: auto 4.125rem;
+}
+.event-snow-animation[data-v-0c390100] {
+  overflow: hidden;
+  pointer-events: none;
+}
+.event-snow-animation[data-v-0c390100] .event-snow-animation__snowflake {
+  color: #fff;
+  pointer-events: none;
+  position: absolute;
+  top: -6.25rem;
+}
+[dir] .event-snow-animation[data-v-0c390100] .event-snow-animation__snowflake {
+  animation: fall-0c390100 2s linear forwards;
+}
+@keyframes fall-0c390100 {
+  to {
+    top: calc(100% + 6.25rem);
+  }
+}
+.widget-view[data-v-0182bfcd] {
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.widget-view__garland[data-v-0182bfcd] {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+[dir] .widget-view__garland[data-v-0182bfcd] {
+  left: 0;
+  right: 0;
+}
+.widget-view__snow[data-v-0182bfcd] {
+  bottom: 0;
+  position: absolute;
+  top: 0;
+  z-index: 50;
+}
+[dir] .widget-view__snow[data-v-0182bfcd] {
+  left: 0;
+  right: 0;
+}

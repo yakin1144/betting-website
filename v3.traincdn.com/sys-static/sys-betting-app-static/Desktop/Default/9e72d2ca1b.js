@@ -1,0 +1,137 @@
+import $_$ from "./$_$.js";
+$_$();
+import { DashboardColumn as _, isDashboardColumn as O } from "./9bf7ffb8ec.js";
+import { index_useT as g } from "../../../shared-assets/Desktop/__shared_base-app_0c5f9cda0c.js";
+const A = {
+    [_.FULL_TIME]: "FT",
+    [_.FIRST_HALF]: "FH",
+    [_.ONE]: "1",
+    [_.X]: "x",
+    [_.TWO]: "2",
+    [_.ZERO_ONE]: "0-1",
+    [_.TWO_THREE]: "2-3",
+    [_.FOUR_SIX]: "4-6",
+    [_.ZERO]: "0",
+    [_.FIRST]: "1",
+    [_.SECOND]: "2",
+    [_.ZERO_ZERO]: "0-0",
+    [_.ONE_ZERO]: "1-0",
+    [_.ONE_ONE]: "1-1",
+    [_.TWO_ZERO]: "2-0",
+    [_.ZERO_TWO]: "0-2",
+    [_.TWO_ONE]: "2-1",
+    [_.ONE_TWO]: "1-2",
+    [_.THREE_ZERO]: "3-0",
+    [_.ZERO_THREE]: "0-3",
+    [_.TWO_TWO]: "2-2",
+    [_.THREE_ONE]: "3-1",
+    [_.ONE_THREE]: "1-3",
+    [_.THREE_TWO]: "3-2",
+    [_.THREE_THREE]: "3-3",
+    [_.ONE_FOUR]: "1-4",
+  },
+  d = {
+    [_.FULL_TIME]: "betting_asia_legend_full_time",
+    [_.FIRST_HALF]: "betting_asia_legend_first_half",
+    [_.HDP]: "betting_asia_legend_hdp",
+    [_.ONE_X_TWO]: "betting_asia_legend_1x2",
+    [_.HOME]: "betting_asia_legend_home",
+    [_.AWAY]: "betting_asia_legend_away",
+    [_.GOALS]: "betting_asia_legend_goals",
+    [_.OVER]: "betting_asia_legend_over",
+    [_.UNDER]: "betting_asia_legend_under",
+    [_.WINNER]: "betting_asia_legend_winner",
+    [_.HANDICAP]: "betting_asia_legend_handicap",
+    [_.OVER_UNDER_SHORT]: "betting_asia_legend_over_under_short",
+    [_.TEAM_OVER_UNDER]: "betting_asia_legend_team_over_under",
+    [_.GAME_HANDICAP]: "betting_asia_legend_game_handicap",
+    [_.GAMES_OVER_UNDER]: "betting_asia_legend_games_over_under",
+    [_.POINTS_HANDICAP]: "betting_asia_legend_points_handicap",
+    [_.POINTS_OVER_UNDER]: "betting_asia_legend_points_over_under",
+    [_.POINTS_ODD_EVEN]: "betting_asia_legend_points_odd_even",
+    [_.SET_HANDICAP]: "betting_asia_legend_set_handicap",
+    [_.ODD_EVEN_SHORT]: "betting_asia_legend_odd_even_short",
+    [_.ODD]: "betting_asia_legend_odd",
+    [_.EVEN]: "betting_asia_legend_even",
+    [_.MOST]: "betting_asia_legend_most_180",
+    [_.FIRST_GOAL]: "betting_asia_legend_first_goal",
+    [_.LAST_GOAL]: "betting_asia_legend_last_goal",
+    [_.NO_GOAL]: "betting_asia_legend_no_goal",
+    [_.HOME_HOME]: "betting_asia_legend_home_home",
+    [_.HOME_DRAW]: "betting_asia_legend_home_draw",
+    [_.HOME_AWAY]: "betting_asia_legend_home_away",
+    [_.DRAW_HOME]: "betting_asia_legend_draw_home",
+    [_.DRAW_DRAW]: "betting_asia_legend_draw_draw",
+    [_.DRAW_AWAY]: "betting_asia_legend_draw_away",
+    [_.AWAY_HOME]: "betting_asia_legend_away_home",
+    [_.AWAY_DRAW]: "betting_asia_legend_away_draw",
+    [_.AWAY_AWAY]: "betting_asia_legend_away_away",
+  },
+  s = [
+    _.FULL_TIME,
+    _.FIRST_HALF,
+    _.HDP,
+    _.ONE_X_TWO,
+    _.HOME,
+    _.AWAY,
+    _.GOALS,
+    _.OVER,
+    _.UNDER,
+    _.WINNER,
+    _.HANDICAP,
+    _.OVER_UNDER_SHORT,
+    _.TEAM_OVER_UNDER,
+    _.GAME_HANDICAP,
+    _.GAMES_OVER_UNDER,
+    _.POINTS_HANDICAP,
+    _.POINTS_OVER_UNDER,
+    _.POINTS_ODD_EVEN,
+    _.SET_HANDICAP,
+    _.ODD_EVEN_SHORT,
+    _.ODD,
+    _.EVEN,
+    _.MOST,
+    _.FIRST_GOAL,
+    _.LAST_GOAL,
+    _.NO_GOAL,
+    _.HOME_HOME,
+    _.HOME_DRAW,
+    _.HOME_AWAY,
+    _.DRAW_HOME,
+    _.DRAW_DRAW,
+    _.DRAW_AWAY,
+    _.AWAY_HOME,
+    _.AWAY_DRAW,
+    _.AWAY_AWAY,
+  ],
+  R = (t) => s.includes(t),
+  T = ({ isDynamic: t, section: e }) => {
+    $_$();
+    const n = g();
+    if (t || !O(e)) return e;
+    if (R(e)) {
+      const a = d[e];
+      if (a) {
+        if (Array.isArray(a)) {
+          const [i, E] = a;
+          return n(i, E);
+        }
+        return n(a);
+      }
+    }
+    return A[e];
+  },
+  b = {
+    2: "betting_asia_market_type_draw",
+    9: "betting_asia_market_type_over",
+    10: "betting_asia_market_type_under",
+    3827: "betting_asia_market_type_over",
+    3828: "betting_asia_market_type_under",
+    182: "betting_asia_market_type_even",
+    183: "betting_asia_market_type_odd",
+  };
+export {
+  T as convertSectionToLabel,
+  b as dashboardMarketTypeNamesMap,
+  A as dashboardSectionLabelMap,
+};

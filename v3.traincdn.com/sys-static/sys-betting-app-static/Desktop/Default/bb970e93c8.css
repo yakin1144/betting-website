@@ -1,0 +1,104 @@
+.ui-coupon-bet-market[data-v-0bd6329c] {
+  align-items: flex-start;
+  display: flex;
+}
+.ui-coupon-bet-market__coef[data-v-0bd6329c] {
+  flex-shrink: 0;
+  min-height: 1.25rem;
+  min-width: 3rem;
+}
+[dir="ltr"] .ui-coupon-bet-market__coef[data-v-0bd6329c] {
+  margin-right: 0.25rem;
+}
+[dir="rtl"] .ui-coupon-bet-market__coef[data-v-0bd6329c] {
+  margin-left: 0.25rem;
+}
+.ui-coupon-bet-market__name[data-v-0bd6329c] {
+  align-items: center;
+  color: var(--coupon-bet-market-name);
+  display: flex;
+  flex-grow: 1;
+  font-size: 0.6875rem;
+  line-height: 0.8125rem;
+  min-height: 1.25rem;
+}
+[dir] .coupon-history-bet[data-v-281049c1] {
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+}
+.coupon-history-bet__header[data-v-281049c1] {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.coupon-history-bet__teams[data-v-281049c1] {
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+}
+[dir] .coupon-history-bet__teams[data-v-281049c1] {
+  margin-top: 0.25rem;
+}
+[dir] .coupon-history-bet__market[data-v-281049c1] {
+  margin-top: 0.5rem;
+}
+[dir] .coupon-history-bet-params__item[data-v-281049c1] {
+  margin-top: 0.25rem;
+}
+.coupon-history-bet-params-item[data-v-281049c1] {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.coupon-history-bet-params-item__label[data-v-281049c1] {
+  font-size: 0.6875rem;
+  line-height: 0.875rem;
+}
+[dir="ltr"] .coupon-history-bet-params-item__label[data-v-281049c1] {
+  margin-right: 0.25rem;
+}
+[dir="rtl"] .coupon-history-bet-params-item__label[data-v-281049c1] {
+  margin-left: 0.25rem;
+}
+.coupon-history-bet-params-item__value[data-v-281049c1] {
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  word-break: break-all;
+}
+.coupon-history-bet-params-item__total-score[data-v-281049c1] {
+  color: Hsl(var(--custom-coupon-modal-caption-clr, var(--hsl-clr-strong)));
+  font-weight: 700;
+}
+.coupon-history-bet-params-item__status--pending[data-v-281049c1] {
+  color: Hsl(var(--hsl-clr-decent));
+}
+.coupon-history-bet-params-item__status--loss[data-v-281049c1] {
+  color: Hsl(var(--hsl-clr-bad));
+}
+.coupon-history-bet-params-item__status--win[data-v-281049c1] {
+  color: Hsl(var(--hsl-clr-good));
+}
+.coupon-history-info__item[data-v-07670793] {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+[dir] .coupon-history-info__item[data-v-07670793]:not(:first-child) {
+  margin-top: 0.25rem;
+}
+.coupon-history-info__status[data-v-07670793] {
+  font-weight: 700;
+}
+.coupon-history-info__status--pending[data-v-07670793] {
+  color: Hsl(var(--hsl-clr-decent));
+}
+.coupon-history-info__status--loss[data-v-07670793] {
+  color: Hsl(var(--hsl-clr-bad));
+}
+.coupon-history-info__status--win[data-v-07670793] {
+  color: Hsl(var(--hsl-clr-good));
+}
+.coupon-history-info__status--loss[data-v-07670793],
+.coupon-history-info__status--pending[data-v-07670793],
+.coupon-history-info__status--win[data-v-07670793] {
+  font-weight: 400;
+}

@@ -1,0 +1,38 @@
+.coupon-bet-builder-bets-lock[data-v-e35607d9] {
+  --hsl-bg: var(--primary--40-bg);
+  --hsl-clr: var(--primary--40-clr);
+  --hsl-clr-accent: var(--primary--40-clr-accent);
+  --hsl-clr-decent: var(--primary--40-clr-decent);
+  --hsl-clr-strong: var(--primary--40-clr-strong);
+  --hsl-clr-strong-alt: var(--primary--40-clr-strong-alt);
+  --hsl-clr-primary: var(--primary--40-clr-primary);
+  --hsl-clr-good: var(--primary--40-clr-good);
+  --hsl-clr-bad: var(--primary--40-clr-bad);
+  --hsl-sep: var(--primary--40-sep);
+  --hsl-sep-alt: var(--primary--40-sep-alt);
+  align-items: center;
+  color: Hsla(var(--hsl-clr), 1);
+  display: grid;
+  grid-template-areas: ". info control";
+  grid-template-columns: 1fr auto minmax(max-content, 1fr);
+}
+[dir] .coupon-bet-builder-bets-lock[data-v-e35607d9] {
+  background-color: Hsla(var(--hsl-bg), 0.8);
+}
+.coupon-bet-builder-bets-lock__info[data-v-e35607d9] {
+  grid-area: info;
+}
+[dir] .coupon-bet-builder-bets-lock__info[data-v-e35607d9] {
+  text-align: center;
+}
+.coupon-bet-builder-bets-lock__control[data-v-e35607d9] {
+  align-items: center;
+  display: flex;
+  grid-area: control;
+  justify-content: center;
+  justify-self: end;
+}
+[dir] .coupon-bet-builder-bets-lock[data-v-e35607d9] {
+  border-radius: var(--border-radius);
+  padding: 2px 0.4375rem;
+}

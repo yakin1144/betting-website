@@ -1,0 +1,45 @@
+.header-logo-third-party-product[data-v-ba3cfbc5] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+[dir] .header-logo-third-party-product[data-v-ba3cfbc5] {
+  transition: opacity 0.2s;
+}
+.header-logo-third-party-product__link[data-v-ba3cfbc5] {
+  display: block;
+  height: 100%;
+  min-height: var(--tp-logo-height, 1.75rem);
+  min-width: var(--tp-logo-width, 3.75rem);
+  width: 100%;
+}
+[dir] .header-logo-third-party-product__link[data-v-ba3cfbc5] {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: var(--tp-logo-size, 3rem);
+}
+.is-keyboard-user
+  .header-logo-third-party-product__link[data-v-ba3cfbc5]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+.header-logo-third-party-product--is-transparent[data-v-ba3cfbc5] {
+  opacity: 0.8;
+}
+.header-logo-third-party-product--is-transparent[data-v-ba3cfbc5]:hover {
+  opacity: 1;
+}
+.header-navigation-game-logo[data-v-6a4b6d40] {
+  display: flex;
+}
+.is-keyboard-user .header-navigation-game-logo[data-v-6a4b6d40]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+.header-navigation-game-logo__link[data-v-6a4b6d40] {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  gap: 0.5rem;
+  justify-content: center;
+}

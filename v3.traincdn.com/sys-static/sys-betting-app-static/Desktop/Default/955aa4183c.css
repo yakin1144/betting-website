@@ -1,0 +1,125 @@
+.menu-champ-dropdown__content[data-v-f09741f7] {
+  min-height: 0;
+  width: 13.875rem;
+}
+.menu-champ-dropdown__ico[data-v-f09741f7] {
+  flex-shrink: 0;
+}
+[dir="ltr"] .menu-champ-dropdown__ico[data-v-f09741f7] {
+  margin-right: 0.5rem;
+}
+[dir="rtl"] .menu-champ-dropdown__ico[data-v-f09741f7] {
+  margin-left: 0.5rem;
+}
+[dir="ltr"] .menu-champ-dropdown__marker[data-v-f09741f7] {
+  margin-right: 0.25rem;
+}
+[dir="rtl"] .menu-champ-dropdown__marker[data-v-f09741f7] {
+  margin-left: 0.25rem;
+}
+.menu-champ-with-sub-champs-dropdown__content[data-v-b32f795e] {
+  min-height: 0;
+  width: 13.875rem;
+}
+.menu-champ-with-sub-champs-dropdown__ico[data-v-b32f795e] {
+  flex-shrink: 0;
+}
+[dir="ltr"] .menu-champ-with-sub-champs-dropdown__ico[data-v-b32f795e] {
+  margin-right: 0.5rem;
+}
+[dir="rtl"] .menu-champ-with-sub-champs-dropdown__ico[data-v-b32f795e] {
+  margin-left: 0.5rem;
+}
+[dir="ltr"] .menu-champ-with-sub-champs-dropdown__marker[data-v-b32f795e] {
+  margin-right: -0.25rem;
+}
+[dir="rtl"] .menu-champ-with-sub-champs-dropdown__marker[data-v-b32f795e] {
+  margin-left: -0.25rem;
+}
+.menu-sport-dropdown__content[data-v-cbb92d0d],
+.menu-dropdown__content[data-v-13901dc4] {
+  min-height: 0;
+  width: 13.875rem;
+}
+.menu-sport-list[data-v-44fca2c3] .menu-sport-list__item {
+  flex-shrink: 0;
+  position: relative;
+  width: auto;
+}
+.menu-sport-list__switch[data-v-44fca2c3] {
+  flex-shrink: 0;
+  height: 100%;
+}
+.menu-sport-list__link[data-v-44fca2c3] {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.menu-sport-list-switch__ico[data-v-44fca2c3] {
+  font-size: 0.9375rem;
+}
+.nav-menu[data-v-a6274449] {
+  align-items: center;
+}
+.nav-menu__list[data-v-a6274449] {
+  align-self: stretch;
+  overflow: hidden;
+}
+[dir] .nav-menu__list[data-v-a6274449] {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.nav-menu[data-v-a6274449],
+.nav-menu__items[data-v-a6274449] {
+  flex-grow: 1;
+  min-width: 0;
+}
+.nav-menu[data-v-a6274449],
+.nav-menu__controls[data-v-a6274449],
+.nav-menu__list[data-v-a6274449] {
+  display: flex;
+}
+.nav-menu__controls[data-v-a6274449] {
+  flex-shrink: 0;
+}
+.nav-menu__control[data-v-a6274449] {
+  position: relative;
+}
+[dir="ltr"] .nav-menu__control[data-v-a6274449]:nth-child(n + 2) {
+  padding-left: 0.75rem;
+}
+[dir="ltr"] .nav-menu__control[data-v-a6274449]:not(:first-child:last-child),
+[dir="rtl"] .nav-menu__control[data-v-a6274449]:nth-child(n + 2) {
+  padding-right: 0.75rem;
+}
+[dir="rtl"] .nav-menu__control[data-v-a6274449]:not(:first-child:last-child) {
+  padding-left: 0.75rem;
+}
+.nav-menu__control[data-v-a6274449]:not(:first-child:last-child):after {
+  bottom: 0;
+  content: "";
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+[dir] .nav-menu__control[data-v-a6274449]:not(:first-child:last-child):after {
+  background-color: currentColor;
+}
+[dir="ltr"]
+  .nav-menu__control[data-v-a6274449]:not(:first-child:last-child):after {
+  right: 0;
+}
+[dir="rtl"]
+  .nav-menu__control[data-v-a6274449]:not(:first-child:last-child):after {
+  left: 0;
+}
+.nav-sport-menu-app[data-v-de83becd] {
+  display: flex;
+  flex-grow: 1;
+  min-width: 0;
+}
+.nav-sport-menu-app__loader[data-v-de83becd] {
+  width: 100%;
+}

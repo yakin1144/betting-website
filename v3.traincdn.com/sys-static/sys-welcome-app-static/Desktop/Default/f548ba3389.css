@@ -1,0 +1,41 @@
+[dir] .auth-form-fields-preloader[data-v-613913aa] {
+  padding: 0.5rem;
+}
+[dir] .auth-form-fields-preloader__field[data-v-613913aa],
+[dir] .auth-form-fields-preloader__reestablish[data-v-613913aa] {
+  background-color: currentColor;
+  border-radius: var(--border-radius);
+}
+.auth-form-fields-preloader__field[data-v-613913aa] {
+  min-height: 2rem;
+}
+[dir] .auth-form-fields-preloader__field[data-v-613913aa]:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+.auth-form-fields-preloader__reestablish[data-v-613913aa] {
+  min-height: 1.5rem;
+  width: 35%;
+}
+[dir] .auth-form-fields-preloader__reestablish[data-v-613913aa] {
+  margin-bottom: 0.5rem;
+}
+[dir="ltr"]
+  .auth-form-fields-preloader__reestablish
+  + .auth-form-fields-preloader__reestablish[data-v-613913aa] {
+  margin-left: 0.5rem;
+}
+[dir="rtl"]
+  .auth-form-fields-preloader__reestablish
+  + .auth-form-fields-preloader__reestablish[data-v-613913aa] {
+  margin-right: 0.5rem;
+}
+.auth-form-fields-preloader__row[data-v-613913aa] {
+  display: flex;
+  justify-content: space-between;
+}
+.auth-dropdown__content[data-v-22d69645] {
+  width: 18.75rem;
+}
+[dir] .auth-dropdown__content[data-v-22d69645] {
+  border-radius: inherit;
+}

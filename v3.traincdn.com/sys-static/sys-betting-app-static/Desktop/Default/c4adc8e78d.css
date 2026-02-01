@@ -1,0 +1,38 @@
+.foul-game-card[data-v-0f6e2e09] {
+  position: relative;
+}
+.foul-game-card__count[data-v-0f6e2e09] {
+  --hsl-bg: var(--bad-0-bg);
+  --hsl-clr: var(--bad-0-clr);
+  --hsl-clr-accent: var(--bad-0-clr-accent);
+  --hsl-clr-decent: var(--bad-0-clr-decent);
+  --hsl-clr-strong: var(--bad-0-clr-strong);
+  --hsl-clr-strong-alt: var(--bad-0-clr-strong-alt);
+  --hsl-clr-primary: var(--bad-0-clr-primary);
+  --hsl-clr-good: var(--bad-0-clr-good);
+  --hsl-clr-bad: var(--bad-0-clr-bad);
+  --hsl-sep: var(--bad-0-sep);
+  --hsl-sep-alt: var(--bad-0-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+  font-size: 0.625rem;
+  font-weight: 700;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  min-width: 0.75rem;
+  position: absolute;
+  top: -2px;
+}
+[dir] .foul-game-card__count[data-v-0f6e2e09] {
+  background-color: Hsla(var(--hsl-bg), 1);
+  border-radius: 0.375rem;
+  box-shadow: 0 0 0 2px currentColor;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+}
+[dir="ltr"] .foul-game-card__count[data-v-0f6e2e09] {
+  left: 0.3125rem;
+}
+[dir="rtl"] .foul-game-card__count[data-v-0f6e2e09] {
+  right: 0.3125rem;
+}

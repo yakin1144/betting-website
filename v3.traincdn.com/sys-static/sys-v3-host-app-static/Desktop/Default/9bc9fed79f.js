@@ -1,0 +1,40 @@
+import {
+  defineMultiImplementedFeature as o,
+  Platforms as s,
+} from "./entry-85993dc44c.js";
+import {
+  size_constants_sizeType as e,
+  theme_constants_themeType as i,
+} from "../../../shared-assets/Desktop/__shared_base-app_0c5f9cda0c.js";
+const r = o("FooterDesktopConfig", !0, [s.Desktop]),
+  p = {
+    footerSize: e.m,
+    mobileAppsSize: e.m,
+    mobileAppsButtonTitleSize: e.xs,
+    mobileAppsHasHover: !1,
+    isFooterNeedTheme: !0,
+    isShowFooterBorderTop: !1,
+    isShowFooterListBorderBottom: !1,
+    isShowBrandBlock: !1,
+    isShowLegal: !1,
+    isShowCopyright: !1,
+    isShowMinAgeInCopyrightsBlock: !1,
+    isCopyrightsTextCenter: !1,
+    navGroupTitleSize: e.m,
+    navGroupLinkTextSize: e.xs,
+    isShowMobileAppsInColumn: !0,
+    isShowMobileAppsAlignRight: !1,
+    mobileAppsTheme: i.primary,
+    mobileAppsTitleSize: e.m,
+    licenseTextSize: e.xs,
+    licensesSolid: !1,
+    isMobileAppsIconColorDecent: !0,
+    isShowLicenses: !0,
+    isShowFooterTile: !0,
+    isShowSocials: !1,
+    isShowMobileAppsTitle: !0,
+    isShowFooterContacts: !1,
+    isFooterTileBorderBottomSep: !1,
+    licensesIsSorted: !1,
+  };
+export { r as Contract, p as DEFAULT_FOOTER_DESKTOP_CONFIG };

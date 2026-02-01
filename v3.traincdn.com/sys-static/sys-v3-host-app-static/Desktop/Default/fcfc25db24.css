@@ -1,0 +1,57 @@
+.footer-responsible-gambling__item[data-v-b02916a9] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+[dir] .footer-responsible-gambling__item[data-v-b02916a9] {
+  border-radius: var(--border-radius);
+  padding: 0.75rem;
+}
+[dir="ltr"]
+  .footer-responsible-gambling__item
+  + .footer-responsible-gambling__item[data-v-b02916a9] {
+  margin-left: 0.5rem;
+}
+[dir="rtl"]
+  .footer-responsible-gambling__item
+  + .footer-responsible-gambling__item[data-v-b02916a9] {
+  margin-right: 0.5rem;
+}
+.footer-responsible-gambling__item--theme-cyber--35[data-v-b02916a9] {
+  --hsl-bg: var(--cyber--35-bg);
+  --hsl-clr: var(--cyber--35-clr);
+  --hsl-clr-accent: var(--cyber--35-clr-accent);
+  --hsl-clr-decent: var(--cyber--35-clr-decent);
+  --hsl-clr-strong: var(--cyber--35-clr-strong);
+  --hsl-clr-strong-alt: var(--cyber--35-clr-strong-alt);
+  --hsl-clr-primary: var(--cyber--35-clr-primary);
+  --hsl-clr-good: var(--cyber--35-clr-good);
+  --hsl-clr-bad: var(--cyber--35-clr-bad);
+  --hsl-sep: var(--cyber--35-sep);
+  --hsl-sep-alt: var(--cyber--35-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir] .footer-responsible-gambling__item--theme-cyber--35[data-v-b02916a9] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.footer-responsible-gambling__item--theme-primary--20[data-v-b02916a9] {
+  --hsl-bg: var(--primary--20-bg);
+  --hsl-clr: var(--primary--20-clr);
+  --hsl-clr-accent: var(--primary--20-clr-accent);
+  --hsl-clr-decent: var(--primary--20-clr-decent);
+  --hsl-clr-strong: var(--primary--20-clr-strong);
+  --hsl-clr-strong-alt: var(--primary--20-clr-strong-alt);
+  --hsl-clr-primary: var(--primary--20-clr-primary);
+  --hsl-clr-good: var(--primary--20-clr-good);
+  --hsl-clr-bad: var(--primary--20-clr-bad);
+  --hsl-sep: var(--primary--20-sep);
+  --hsl-sep-alt: var(--primary--20-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir] .footer-responsible-gambling__item--theme-primary--20[data-v-b02916a9] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.footer-responsible-gambling__img[data-v-b02916a9] {
+  max-height: 3.5rem;
+}

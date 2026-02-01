@@ -1,0 +1,12 @@
+.sports-menu-compact-template[data-v-231269fc] {
+  align-items: var(--sports-menu-compact-template-align, stretch);
+  display: flex;
+  flex-direction: column;
+}
+[dir] .sports-menu-compact-template__tab[data-v-231269fc] {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+.sports-menu-compact-template__ico[data-v-231269fc] {
+  color: Hsl(var(--custom-live-dot-bg, var(--good-15-bg)));
+}

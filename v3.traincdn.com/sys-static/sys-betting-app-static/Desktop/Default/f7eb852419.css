@@ -1,0 +1,28 @@
+[dir] .betting-main__promo[data-v-ea7ad6c9],
+[dir] .betting-main__widget[data-v-ea7ad6c9],
+[dir] .betting-main__winners[data-v-ea7ad6c9] {
+  margin-bottom: 0.5rem;
+}
+[dir] .betting-main__ticker[data-v-ea7ad6c9] {
+  margin-bottom: 0.75rem;
+}
+[dir] .betting-main[data-v-ea7ad6c9] .betting-main-dashboard {
+  margin-top: 1px;
+}
+[dir]
+  .betting-main[data-v-ea7ad6c9]
+  .betting-main-dashboard:first-child
+  .dashboard-root {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+[dir]
+  .betting-main[data-v-ea7ad6c9]
+  .betting-main-dashboard:last-child
+  .dashboard-root {
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+[dir] .betting-main__preview[data-v-ea7ad6c9] {
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,97 @@
+[dir] .download-apps-widget-tooltip--cyber {
+  text-align: center;
+}
+.download-apps-widget-tooltip--cyber .tooltip-inner {
+  --hsl-bg: var(--cyber--35-bg);
+  --hsl-clr: var(--cyber--35-clr);
+  --hsl-clr-accent: var(--cyber--35-clr-accent);
+  --hsl-clr-decent: var(--cyber--35-clr-decent);
+  --hsl-clr-strong: var(--cyber--35-clr-strong);
+  --hsl-clr-strong-alt: var(--cyber--35-clr-strong-alt);
+  --hsl-clr-primary: var(--cyber--35-clr-primary);
+  --hsl-clr-good: var(--cyber--35-clr-good);
+  --hsl-clr-bad: var(--cyber--35-clr-bad);
+  --hsl-sep: var(--cyber--35-sep);
+  --hsl-sep-alt: var(--cyber--35-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir] .download-apps-widget-tooltip--cyber .tooltip-inner {
+  background-color: Hsla(var(--hsl-bg), 1);
+  border: 1px solid hsl(var(--hsl-sep));
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 1.5rem Hsla(var(--hsl-clr-primary), 0.25);
+  padding: 0.5rem;
+}
+.download-apps-widget-tooltip--cyber .tooltip-arrow {
+  --hsl-bg: var(--cyber--35-bg);
+  --hsl-clr: var(--cyber--35-clr);
+  --hsl-clr-accent: var(--cyber--35-clr-accent);
+  --hsl-clr-decent: var(--cyber--35-clr-decent);
+  --hsl-clr-strong: var(--cyber--35-clr-strong);
+  --hsl-clr-strong-alt: var(--cyber--35-clr-strong-alt);
+  --hsl-clr-primary: var(--cyber--35-clr-primary);
+  --hsl-clr-good: var(--cyber--35-clr-good);
+  --hsl-clr-bad: var(--cyber--35-clr-bad);
+  --hsl-sep: var(--cyber--35-sep);
+  --hsl-sep-alt: var(--cyber--35-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir] .download-apps-widget-tooltip--cyber .tooltip-arrow {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+[dir] .download-apps-widget-tooltip--cyber[x-placement^="top"] .tooltip-arrow {
+  border-bottom-color: Hsl(var(--hsl-sep));
+}
+[dir="ltr"]
+  .download-apps-widget-tooltip--cyber[x-placement^="top"]
+  .tooltip-arrow {
+  border-right-color: Hsl(var(--hsl-sep));
+}
+[dir="rtl"]
+  .download-apps-widget-tooltip--cyber[x-placement^="top"]
+  .tooltip-arrow {
+  border-left-color: Hsl(var(--hsl-sep));
+}
+[dir]
+  .download-apps-widget-tooltip--cyber[x-placement^="bottom"]
+  .tooltip-arrow {
+  border-top-color: Hsl(var(--hsl-sep));
+}
+[dir="ltr"]
+  .download-apps-widget-tooltip--cyber[x-placement^="bottom"]
+  .tooltip-arrow {
+  border-left-color: Hsl(var(--hsl-sep));
+}
+[dir="rtl"]
+  .download-apps-widget-tooltip--cyber[x-placement^="bottom"]
+  .tooltip-arrow {
+  border-right-color: Hsl(var(--hsl-sep));
+}
+[dir]
+  .download-apps-widget-tooltip--cyber[x-placement^="right"]
+  .tooltip-arrow {
+  border-bottom-color: Hsl(var(--hsl-sep));
+}
+[dir="ltr"]
+  .download-apps-widget-tooltip--cyber[x-placement^="right"]
+  .tooltip-arrow {
+  border-left-color: Hsl(var(--hsl-sep));
+}
+[dir="rtl"]
+  .download-apps-widget-tooltip--cyber[x-placement^="right"]
+  .tooltip-arrow {
+  border-right-color: Hsl(var(--hsl-sep));
+}
+[dir] .download-apps-widget-tooltip--cyber[x-placement^="left"] .tooltip-arrow {
+  border-top-color: Hsl(var(--hsl-sep));
+}
+[dir="ltr"]
+  .download-apps-widget-tooltip--cyber[x-placement^="left"]
+  .tooltip-arrow {
+  border-right-color: Hsl(var(--hsl-sep));
+}
+[dir="rtl"]
+  .download-apps-widget-tooltip--cyber[x-placement^="left"]
+  .tooltip-arrow {
+  border-left-color: Hsl(var(--hsl-sep));
+}

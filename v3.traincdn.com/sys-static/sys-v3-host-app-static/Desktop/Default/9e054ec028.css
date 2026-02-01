@@ -1,0 +1,12 @@
+.header-events[data-v-be5397b9] {
+  -moz-column-gap: var(--header-top-gap);
+  column-gap: var(--header-top-gap);
+  display: flex;
+  flex-grow: 1;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  min-width: 0;
+}
+.header-events__item[data-v-be5397b9] {
+  flex-shrink: 0;
+}

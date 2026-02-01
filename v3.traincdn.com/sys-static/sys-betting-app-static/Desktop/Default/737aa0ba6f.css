@@ -1,0 +1,10 @@
+.media-video-auth[data-v-c4d653b9] {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 0.5rem;
+}
+[dir] .media-video-auth[data-v-c4d653b9] {
+  padding: 1rem 0.75rem;
+}

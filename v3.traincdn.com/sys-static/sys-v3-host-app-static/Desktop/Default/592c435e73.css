@@ -1,0 +1,32 @@
+.header-logo[data-v-3918044a] {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.is-keyboard-user .header-logo[data-v-3918044a]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+[dir="ltr"] .header-logo__decor[data-v-3918044a] {
+  margin-left: 0.5rem;
+}
+[dir="rtl"] .header-logo__decor[data-v-3918044a] {
+  margin-right: 0.5rem;
+}
+.header-logo[data-v-3918044a] {
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+[dir] .header-logo--indented[data-v-3918044a] {
+  padding-bottom: var(--header-logo-padding-bottom, 0.5rem);
+  padding-top: var(--header-logo-padding-top, 0.5rem);
+}
+[dir="ltr"] .header-logo--indented[data-v-3918044a] {
+  padding-left: var(--header-logo-padding-left, 0.5rem);
+  padding-right: var(--header-logo-padding-right, 0.5rem);
+}
+[dir="rtl"] .header-logo--indented[data-v-3918044a] {
+  padding-left: var(--header-logo-padding-right, 0.5rem);
+  padding-right: var(--header-logo-padding-left, 0.5rem);
+}

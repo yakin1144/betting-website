@@ -1,0 +1,24 @@
+.home-top-games-slider__header[data-v-ad1e57bc] {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+[dir] .home-top-games-slider__header[data-v-ad1e57bc] {
+  margin-bottom: 0.5rem;
+}
+.home-top-games-slider__link[data-v-ad1e57bc]:not(:hover) {
+  text-decoration: underline;
+}
+.is-keyboard-user .home-top-games-slider__link[data-v-ad1e57bc]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+.home-top-games-slider__item[data-v-ad1e57bc] {
+  height: 100%;
+  width: 21.25rem;
+}
+.home-slider[data-v-ef1c5e08] {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--betting-content-inner-indent, 0.5rem);
+}

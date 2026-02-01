@@ -1,0 +1,19 @@
+.ui-team-score-name[data-v-354d55d5] {
+  align-items: center;
+  display: flex;
+  min-width: 0;
+}
+.ui-team-score-name--nowrap[data-v-354d55d5] {
+  white-space: nowrap;
+}
+[dir="ltr"] .ui-team-score-name[data-v-354d55d5] > :nth-child(n + 2) {
+  margin-left: 0.5rem;
+}
+[dir="rtl"] .ui-team-score-name[data-v-354d55d5] > :nth-child(n + 2) {
+  margin-right: 0.5rem;
+}
+.ui-team-score-name[data-v-354d55d5] .ui-caption {
+  flex-shrink: 1;
+  font-size: var(--team-scores-caption-fz);
+  line-height: var(--team-scores-caption-lh);
+}

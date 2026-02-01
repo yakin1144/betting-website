@@ -1,0 +1,30 @@
+.third-party-preview-games-with-header-skeleton[data-v-a0b80396] {
+  overflow: hidden;
+}
+[dir] .third-party-preview-games-with-header-skeleton[data-v-a0b80396] {
+  border-radius: var(--border-radius);
+  padding: 0.9375rem;
+}
+.third-party-preview-games-with-header-skeleton__header[data-v-a0b80396] {
+  height: 2rem;
+}
+[dir] .third-party-preview-games-with-header-skeleton__header[data-v-a0b80396] {
+  background-color: currentColor;
+  border-radius: 0.5rem;
+  margin-bottom: 0.625rem;
+}
+.third-party-preview-games-with-header-skeleton__items[data-v-a0b80396] {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 0.5rem;
+}
+.third-party-preview-games-with-header-skeleton__item[data-v-a0b80396] {
+  display: flex;
+  flex-direction: column;
+  height: 10.625rem;
+  width: 14.0625rem;
+}
+[dir] .third-party-preview-games-with-header-skeleton__item[data-v-a0b80396] {
+  background-color: currentColor;
+  border-radius: var(--border-radius);
+}

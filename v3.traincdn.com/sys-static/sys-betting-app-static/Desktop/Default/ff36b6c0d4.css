@@ -1,0 +1,15 @@
+.banners-widget-loader[data-v-dc73eb8b]:before {
+  content: "";
+  display: block;
+}
+[dir] .banners-widget-loader[data-v-dc73eb8b]:before {
+  background-color: currentColor;
+  border-radius: var(--border-radius);
+}
+.banners-widget-loader[data-v-dc73eb8b]:before {
+  height: 15.5rem;
+}
+.banners-client-widget[data-v-2d8979f9] {
+  --banners-widget-indent-right: 0;
+  --banners-widget-indent-left: 0;
+}

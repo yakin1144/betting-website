@@ -1,0 +1,663 @@
+[dir] .ui-game-goal[data-v-7478c7cc] {
+  animation: goal-7478c7cc 2s ease-out infinite;
+}
+@keyframes goal-7478c7cc {
+  0% {
+    border-radius: 50%;
+  }
+  20%,
+  85% {
+    border-radius: var(--ui-game-goal-border-radius, 2px);
+  }
+  90% {
+    opacity: 1;
+  }
+  to {
+    border-radius: 50%;
+    opacity: 0;
+  }
+}
+[dir] .ui-game-goal--bordered[data-v-7478c7cc] {
+  border: 1px solid hsl(var(--good--15-bg));
+}
+.ui-game-goal[data-v-7478c7cc]:not(.ui-game-goal--bordered) {
+  --hsl-bg: var(--accent-15-bg);
+  --hsl-clr: var(--accent-15-clr);
+  --hsl-clr-accent: var(--accent-15-clr-accent);
+  --hsl-clr-decent: var(--accent-15-clr-decent);
+  --hsl-clr-strong: var(--accent-15-clr-strong);
+  --hsl-clr-strong-alt: var(--accent-15-clr-strong-alt);
+  --hsl-clr-primary: var(--accent-15-clr-primary);
+  --hsl-clr-good: var(--accent-15-clr-good);
+  --hsl-clr-bad: var(--accent-15-clr-bad);
+  --hsl-sep: var(--accent-15-sep);
+  --hsl-sep-alt: var(--accent-15-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir] .ui-game-goal[data-v-7478c7cc]:not(.ui-game-goal--bordered) {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.ui-game-goal__container[data-v-7478c7cc] {
+  align-items: center;
+  display: flex;
+  height: 1rem;
+}
+[dir] .ui-game-goal__container[data-v-7478c7cc] {
+  animation: stretch-container-7478c7cc 2s ease-out infinite;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+@keyframes stretch-container-7478c7cc {
+  0% {
+    justify-content: center;
+    width: 1rem;
+  }
+  50% {
+    justify-content: space-between;
+    width: 3.4375rem;
+  }
+  75%,
+  85% {
+    justify-content: space-between;
+    width: 3.25rem;
+  }
+  to {
+    justify-content: center;
+    width: 1rem;
+  }
+}
+.ui-game-goal__text[data-v-7478c7cc] {
+  font-weight: 700;
+  overflow-x: hidden;
+}
+.ui-game-goal__text--size-xxs[data-v-7478c7cc] {
+  font-size: 0.6875rem;
+  line-height: 0.8125rem;
+}
+.ui-game-goal__text--size-xs[data-v-7478c7cc] {
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+}
+.ui-game-goal__ico[data-v-7478c7cc] {
+  flex-shrink: 0;
+}
+[dir="ltr"] .ui-game-goal__ico[data-v-7478c7cc] {
+  animation: rotate-icon-ltr-7478c7cc 2s ease-out infinite;
+}
+[dir="rtl"] .ui-game-goal__ico[data-v-7478c7cc] {
+  animation: rotate-icon-rtl-7478c7cc 2s ease-out infinite;
+}
+@keyframes rotate-icon-ltr-7478c7cc {
+  0% {
+    transform: rotate(35deg);
+  }
+  80% {
+    transform: rotate(120deg);
+  }
+  85% {
+    transform: rotate(125deg);
+  }
+  to {
+    transform: rotate(35deg);
+  }
+}
+@keyframes rotate-icon-rtl-7478c7cc {
+  0% {
+    transform: rotate(-35deg);
+  }
+  80% {
+    transform: rotate(-120deg);
+  }
+  85% {
+    transform: rotate(-125deg);
+  }
+  to {
+    transform: rotate(-35deg);
+  }
+}
+.team-stats-table-label[data-v-a6387cd7] {
+  align-items: center;
+  display: flex;
+}
+.team-stats-table-label__ico[data-v-a6387cd7] {
+  flex: none;
+}
+[dir="ltr"] .team-stats-table-label__ico[data-v-a6387cd7] {
+  margin-right: 0.25rem;
+}
+[dir="rtl"] .team-stats-table-label__ico[data-v-a6387cd7] {
+  margin-left: 0.25rem;
+}
+.team-stats-table-title[data-v-a6387cd7] {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+[dir] .team-stats-table-title[data-v-a6387cd7] {
+  margin-bottom: 0.25rem;
+  margin-top: 0.5rem;
+}
+[dir="ltr"] .team-stats-table-title[data-v-a6387cd7] {
+  text-align: left;
+}
+[dir="rtl"] .team-stats-table-title[data-v-a6387cd7] {
+  text-align: right;
+}
+.team-stats-matches-table__champ[data-v-a6387cd7] {
+  width: 0;
+}
+.team-stats-matches-table__player[data-v-a6387cd7] {
+  width: 100%;
+}
+.team-stats-matches-table__scores[data-v-a6387cd7] {
+  width: 0;
+}
+[dir] .team-stats-matches-table__scores[data-v-a6387cd7] {
+  text-align: center;
+}
+[dir] .team-stats-matches-table__placeholder[data-v-a6387cd7] {
+  margin: 0.25rem;
+}
+.team-stats-matches-table-player[data-v-a6387cd7] {
+  align-items: center;
+  display: flex;
+}
+.team-stats-matches-table-player--align-end[data-v-a6387cd7] {
+  justify-content: flex-end;
+}
+[dir="ltr"]
+  .team-stats-matches-table-player[data-v-a6387cd7]
+  > :not(:first-child) {
+  margin-left: 0.5rem;
+}
+[dir="rtl"]
+  .team-stats-matches-table-player[data-v-a6387cd7]
+  > :not(:first-child) {
+  margin-right: 0.5rem;
+}
+.team-stats-matches-table-player__name[data-v-a6387cd7] {
+  max-width: 5.8125rem;
+  white-space: nowrap;
+}
+.team-stats-matches-table-champ[data-v-a6387cd7] {
+  width: 5.625rem;
+}
+.team-stats-table-label[data-v-f211ccf7] {
+  align-items: center;
+  display: flex;
+}
+.team-stats-table-label__ico[data-v-f211ccf7] {
+  flex: none;
+}
+[dir="ltr"] .team-stats-table-label__ico[data-v-f211ccf7] {
+  margin-right: 0.25rem;
+}
+[dir="rtl"] .team-stats-table-label__ico[data-v-f211ccf7] {
+  margin-left: 0.25rem;
+}
+.team-stats-table-title[data-v-f211ccf7] {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+[dir] .team-stats-table-title[data-v-f211ccf7] {
+  margin-bottom: 0.25rem;
+  margin-top: 0.5rem;
+}
+[dir="ltr"] .team-stats-table-title[data-v-f211ccf7] {
+  text-align: left;
+}
+[dir="rtl"] .team-stats-table-title[data-v-f211ccf7] {
+  text-align: right;
+}
+.team-stats-players-table__status[data-v-f211ccf7] {
+  width: 50%;
+}
+[dir] .team-stats-players-table__placeholder[data-v-f211ccf7] {
+  margin: 0.25rem;
+}
+.team-stats-table-loader__skeleton[data-v-7db2b1d0] {
+  align-items: center;
+  display: flex;
+}
+.team-stats-table-loader__skeleton[data-v-7db2b1d0]:before {
+  content: "";
+  flex-grow: 1;
+  opacity: 0.7;
+}
+[dir] .team-stats-table-loader__skeleton[data-v-7db2b1d0]:before {
+  background-color: currentColor;
+}
+.team-stats-table-loader__skeleton[data-v-7db2b1d0] {
+  height: 2rem;
+}
+.team-stats-table-loader__skeleton[data-v-7db2b1d0]:before {
+  height: 0.875rem;
+}
+[dir] .team-stats-table-loader__skeleton[data-v-7db2b1d0]:before {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.team-stats[data-v-df1caca9] {
+  display: flex;
+  flex-direction: column;
+}
+.team-stats__tabs[data-v-df1caca9] {
+  flex: none;
+}
+[dir] .team-stats__tabs[data-v-df1caca9] {
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
+}
+.team-stats__scrollbar[data-v-df1caca9] {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  min-height: 0;
+}
+[dir] .team-stats__scrollbar[data-v-df1caca9] {
+  margin-top: 0.25rem;
+}
+.team-stats__table[data-v-df1caca9] {
+  flex: auto;
+  min-height: 0;
+  overflow-x: hidden;
+}
+.team-stats__tab[data-v-df1caca9] {
+  max-height: 2.5rem;
+}
+.team-stats-tab__caption[data-v-df1caca9] {
+  display: block;
+  display: -webkit-box;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+[dir] .team-stats-tab__caption[data-v-df1caca9] {
+  text-align: center;
+}
+.team-stats-table-label[data-v-c3fdd20c] {
+  align-items: center;
+  display: flex;
+}
+.team-stats-table-label__ico[data-v-c3fdd20c] {
+  flex: none;
+}
+[dir="ltr"] .team-stats-table-label__ico[data-v-c3fdd20c] {
+  margin-right: 0.25rem;
+}
+[dir="rtl"] .team-stats-table-label__ico[data-v-c3fdd20c] {
+  margin-left: 0.25rem;
+}
+.team-stats-table-title[data-v-c3fdd20c] {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+[dir] .team-stats-table-title[data-v-c3fdd20c] {
+  margin-bottom: 0.25rem;
+  margin-top: 0.5rem;
+}
+[dir="ltr"] .team-stats-table-title[data-v-c3fdd20c] {
+  text-align: left;
+}
+[dir="rtl"] .team-stats-table-title[data-v-c3fdd20c] {
+  text-align: right;
+}
+.team-stats-matches-table__champ[data-v-c3fdd20c] {
+  width: 0;
+}
+.team-stats-matches-table__player[data-v-c3fdd20c] {
+  width: 100%;
+}
+.team-stats-matches-table__scores[data-v-c3fdd20c] {
+  width: 0;
+}
+[dir] .team-stats-matches-table__scores[data-v-c3fdd20c] {
+  text-align: center;
+}
+[dir] .team-stats-matches-table__placeholder[data-v-c3fdd20c] {
+  margin: 0.25rem;
+}
+.team-stats-matches-table-player[data-v-c3fdd20c] {
+  align-items: center;
+  display: flex;
+}
+.team-stats-matches-table-player--align-end[data-v-c3fdd20c] {
+  justify-content: flex-end;
+}
+[dir="ltr"]
+  .team-stats-matches-table-player[data-v-c3fdd20c]
+  > :not(:first-child) {
+  margin-left: 0.5rem;
+}
+[dir="rtl"]
+  .team-stats-matches-table-player[data-v-c3fdd20c]
+  > :not(:first-child) {
+  margin-right: 0.5rem;
+}
+.team-stats-matches-table-player__name[data-v-c3fdd20c] {
+  max-width: 5.8125rem;
+  white-space: nowrap;
+}
+.team-stats-matches-table-champ[data-v-c3fdd20c] {
+  width: 5.625rem;
+}
+.team-stats-table-label[data-v-5723a02c] {
+  align-items: center;
+  display: flex;
+}
+.team-stats-table-label__ico[data-v-5723a02c] {
+  flex: none;
+}
+[dir="ltr"] .team-stats-table-label__ico[data-v-5723a02c] {
+  margin-right: 0.25rem;
+}
+[dir="rtl"] .team-stats-table-label__ico[data-v-5723a02c] {
+  margin-left: 0.25rem;
+}
+.team-stats-table-title[data-v-5723a02c] {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+[dir] .team-stats-table-title[data-v-5723a02c] {
+  margin-bottom: 0.25rem;
+  margin-top: 0.5rem;
+}
+[dir="ltr"] .team-stats-table-title[data-v-5723a02c] {
+  text-align: left;
+}
+[dir="rtl"] .team-stats-table-title[data-v-5723a02c] {
+  text-align: right;
+}
+.individual-stats-short-player-info-table__status[data-v-5723a02c] {
+  width: 50%;
+}
+[dir] .individual-stats-short-player-info-table__placeholder[data-v-5723a02c] {
+  margin: 0.25rem;
+}
+.team-stats[data-v-822f4ccd] {
+  display: flex;
+  flex-direction: column;
+}
+.team-stats__tabs[data-v-822f4ccd] {
+  flex: none;
+}
+[dir] .team-stats__tabs[data-v-822f4ccd] {
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
+}
+.team-stats__scrollbar[data-v-822f4ccd] {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  min-height: 0;
+}
+[dir] .team-stats__scrollbar[data-v-822f4ccd] {
+  margin-top: 0.25rem;
+}
+.team-stats__table[data-v-822f4ccd] {
+  flex: auto;
+  min-height: 0;
+  overflow-x: hidden;
+}
+.team-stats__tab[data-v-822f4ccd] {
+  max-height: 2.5rem;
+}
+.team-stats-tab__caption[data-v-822f4ccd] {
+  display: block;
+  display: -webkit-box;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+[dir] .team-stats-tab__caption[data-v-822f4ccd] {
+  text-align: center;
+}
+.dashboard-game-team-info-dropdown__stats[data-v-cba6da3f] {
+  max-height: 11.25rem;
+}
+.dashboard-game-team-info__names[data-v-f07046e8] {
+  display: block;
+  flex-shrink: 1;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dashboard-game-team-info__additional[data-v-f07046e8] {
+  opacity: 0.6;
+}
+.dashboard-game-team-info__goal[data-v-f07046e8] {
+  min-height: 1rem;
+}
+.dashboard-game-info[data-v-aac525ec] {
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 2px;
+}
+.dashboard-game-info__item[data-v-aac525ec] {
+  white-space: nowrap;
+}
+.dashboard-game-info__item[data-v-aac525ec]:nth-child(n + 2):before {
+  content: " / ";
+}
+[dir] .dashboard-markets-dropdown[data-v-f88f28a2] {
+  text-align: center;
+}
+.dashboard-markets-dropdown__toggle[data-v-f88f28a2] {
+  color: Hsl(var(--hsl-clr-strong-alt));
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+}
+[dir] .dashboard-markets-dropdown__toggle[data-v-f88f28a2] {
+  border-bottom: 1px dashed;
+  margin-left: auto;
+  margin-right: auto;
+}
+[dir] .dashboard-markets-dropdown__toggle[data-v-f88f28a2]:hover {
+  border-color: #fff0;
+}
+.is-keyboard-user .dashboard-markets-dropdown__toggle[data-v-f88f28a2]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+.dashboard-markets-dropdown__content[data-v-f88f28a2] {
+  min-width: 13.625rem;
+}
+[dir] .dashboard-markets-dropdown__content[data-v-f88f28a2] {
+  border-radius: inherit;
+  padding: 0.5rem;
+}
+.dashboard-markets-dropdown__markets[data-v-f88f28a2] {
+  color: Hsl(var(--hsl-clr-decent));
+  display: flex;
+  justify-content: center;
+}
+[dir] .dashboard-markets-dropdown__markets[data-v-f88f28a2] {
+  border-radius: inherit;
+  transition: background-color 0.2s ease-in-out;
+}
+.is-keyboard-user .dashboard-markets-dropdown__markets[data-v-f88f28a2]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+[dir]
+  .dashboard-markets-dropdown__markets
+  + .dashboard-markets-dropdown__markets[data-v-f88f28a2] {
+  margin-top: 0.25rem;
+}
+.dashboard-markets-dropdown__markets--lead[data-v-f88f28a2] {
+  font-weight: 500;
+}
+.dashboard-markets-dropdown__plug[data-v-f88f28a2] {
+  align-items: center;
+  display: flex;
+  font-size: 0.75rem;
+  justify-content: center;
+  line-height: 0.875rem;
+}
+.dashboard-markets-dropdown__market[data-v-f88f28a2],
+.dashboard-markets-dropdown__plug[data-v-f88f28a2] {
+  flex-shrink: 0;
+  width: 3.6875rem;
+}
+.dashboard-markets-dropdown__coef[data-v-f88f28a2] {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  font-size: 0.75rem;
+  justify-content: center;
+  line-height: 0.875rem;
+  min-width: 0;
+}
+.is-keyboard-user .dashboard-markets-dropdown__coef[data-v-f88f28a2]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+.dashboard-markets-dropdown__coef--is-active[data-v-f88f28a2] {
+  font-weight: 700;
+}
+.dashboard-markets-dropdown__markets--theme-primary-30.dashboard-markets-dropdown__markets--lead[data-v-f88f28a2],
+.dashboard-markets-dropdown__markets--theme-primary-30[data-v-f88f28a2]:hover {
+  --hsl-bg: var(--primary-30-bg);
+  --hsl-clr: var(--primary-30-clr);
+  --hsl-clr-accent: var(--primary-30-clr-accent);
+  --hsl-clr-decent: var(--primary-30-clr-decent);
+  --hsl-clr-strong: var(--primary-30-clr-strong);
+  --hsl-clr-strong-alt: var(--primary-30-clr-strong-alt);
+  --hsl-clr-primary: var(--primary-30-clr-primary);
+  --hsl-clr-good: var(--primary-30-clr-good);
+  --hsl-clr-bad: var(--primary-30-clr-bad);
+  --hsl-sep: var(--primary-30-sep);
+  --hsl-sep-alt: var(--primary-30-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir]
+  .dashboard-markets-dropdown__markets--theme-primary-30.dashboard-markets-dropdown__markets--lead[data-v-f88f28a2],
+[dir]
+  .dashboard-markets-dropdown__markets--theme-primary-30[data-v-f88f28a2]:hover {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.dashboard-markets-dropdown__markets--theme-primary--10.dashboard-markets-dropdown__markets--lead[data-v-f88f28a2],
+.dashboard-markets-dropdown__markets--theme-primary--10[data-v-f88f28a2]:hover {
+  --hsl-bg: var(--primary--10-bg);
+  --hsl-clr: var(--primary--10-clr);
+  --hsl-clr-accent: var(--primary--10-clr-accent);
+  --hsl-clr-decent: var(--primary--10-clr-decent);
+  --hsl-clr-strong: var(--primary--10-clr-strong);
+  --hsl-clr-strong-alt: var(--primary--10-clr-strong-alt);
+  --hsl-clr-primary: var(--primary--10-clr-primary);
+  --hsl-clr-good: var(--primary--10-clr-good);
+  --hsl-clr-bad: var(--primary--10-clr-bad);
+  --hsl-sep: var(--primary--10-sep);
+  --hsl-sep-alt: var(--primary--10-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir]
+  .dashboard-markets-dropdown__markets--theme-primary--10.dashboard-markets-dropdown__markets--lead[data-v-f88f28a2],
+[dir]
+  .dashboard-markets-dropdown__markets--theme-primary--10[data-v-f88f28a2]:hover {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.dashboard-markets-dropdown__markets--theme-gray-80.dashboard-markets-dropdown__markets--lead[data-v-f88f28a2],
+.dashboard-markets-dropdown__markets--theme-gray-80[data-v-f88f28a2]:hover {
+  --hsl-bg: var(--gray-80-bg);
+  --hsl-clr: var(--gray-80-clr);
+  --hsl-clr-accent: var(--gray-80-clr-accent);
+  --hsl-clr-decent: var(--gray-80-clr-decent);
+  --hsl-clr-strong: var(--gray-80-clr-strong);
+  --hsl-clr-strong-alt: var(--gray-80-clr-strong-alt);
+  --hsl-clr-primary: var(--gray-80-clr-primary);
+  --hsl-clr-good: var(--gray-80-clr-good);
+  --hsl-clr-bad: var(--gray-80-clr-bad);
+  --hsl-sep: var(--gray-80-sep);
+  --hsl-sep-alt: var(--gray-80-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir]
+  .dashboard-markets-dropdown__markets--theme-gray-80.dashboard-markets-dropdown__markets--lead[data-v-f88f28a2],
+[dir]
+  .dashboard-markets-dropdown__markets--theme-gray-80[data-v-f88f28a2]:hover {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.dashboard-sub-games-loader[data-v-448560f5],
+.dashboard-sub-games-loader__item[data-v-448560f5] {
+  display: contents;
+}
+.dashboard-sub-games-loader__cell[data-v-448560f5] {
+  height: 3.5rem;
+}
+[dir="ltr"]
+  .dashboard-sub-games-loader--rounded
+  .dashboard-sub-games-loader__item:last-child
+  .dashboard-sub-games-loader__cell[data-v-448560f5]:first-child {
+  border-bottom-left-radius: var(--border-radius);
+}
+[dir="ltr"]
+  .dashboard-sub-games-loader--rounded
+  .dashboard-sub-games-loader__item:last-child
+  .dashboard-sub-games-loader__cell[data-v-448560f5]:last-child,
+[dir="rtl"]
+  .dashboard-sub-games-loader--rounded
+  .dashboard-sub-games-loader__item:last-child
+  .dashboard-sub-games-loader__cell[data-v-448560f5]:first-child {
+  border-bottom-right-radius: var(--border-radius);
+}
+[dir="rtl"]
+  .dashboard-sub-games-loader--rounded
+  .dashboard-sub-games-loader__item:last-child
+  .dashboard-sub-games-loader__cell[data-v-448560f5]:last-child {
+  border-bottom-left-radius: var(--border-radius);
+}
+.dashboard-sub-games-loader__cell[data-v-448560f5]:before {
+  content: "";
+  display: block;
+  height: 100%;
+}
+[dir] .dashboard-sub-games-loader__cell[data-v-448560f5]:before {
+  background-color: currentColor;
+  border-radius: var(--border-radius);
+}
+[dir="ltr"]
+  .dashboard-sub-games-loader__cell[data-v-448560f5]:nth-child(n + 2) {
+  border-left: 1px solid hsl(var(--hsl-sep));
+}
+[dir="rtl"]
+  .dashboard-sub-games-loader__cell[data-v-448560f5]:nth-child(n + 2) {
+  border-right: 1px solid hsl(var(--hsl-sep));
+}
+[dir] .dashboard-sub-games-loader__block[data-v-448560f5],
+[dir] .dashboard-sub-games-loader__markets[data-v-448560f5] {
+  padding: 1rem 0.75rem;
+}
+[dir] .dashboard-sub-games-loader__open[data-v-448560f5] {
+  padding: 0.5rem;
+}
+[dir] .dashboard-sub-games-loader__cell[data-v-448560f5] {
+  border-top: 1px solid hsl(var(--hsl-sep));
+}
+[dir="ltr"]
+  .dashboard-sub-games-loader__item:last-child
+  .dashboard-sub-games-loader__block[data-v-448560f5] {
+  border-bottom-left-radius: var(--border-radius);
+}
+[dir="ltr"]
+  .dashboard-sub-games-loader__item:last-child
+  .dashboard-sub-games-loader__open[data-v-448560f5],
+[dir="rtl"]
+  .dashboard-sub-games-loader__item:last-child
+  .dashboard-sub-games-loader__block[data-v-448560f5] {
+  border-bottom-right-radius: var(--border-radius);
+}
+[dir="rtl"]
+  .dashboard-sub-games-loader__item:last-child
+  .dashboard-sub-games-loader__open[data-v-448560f5] {
+  border-bottom-left-radius: var(--border-radius);
+}

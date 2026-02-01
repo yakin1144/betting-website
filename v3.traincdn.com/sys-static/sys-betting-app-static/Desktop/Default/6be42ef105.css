@@ -1,0 +1,225 @@
+[dir] .central-menu-loader__filter[data-v-9fe972e4] {
+  margin-top: 1px;
+}
+.central-menu-loader__header[data-v-9fe972e4] {
+  height: 2rem;
+}
+.central-menu-loader__bar[data-v-9fe972e4] {
+  height: 2.5rem;
+}
+[dir] .central-menu-loader__bar[data-v-9fe972e4] {
+  margin-top: 1px;
+}
+[dir] .central-menu-loader-header[data-v-9fe972e4] {
+  border-radius: var(--border-radius);
+  padding: 0.5rem 1rem;
+}
+.central-menu-loader-header__text[data-v-9fe972e4] {
+  height: 1rem;
+  width: 100%;
+}
+[dir] .central-menu-loader-header__text[data-v-9fe972e4] {
+  background-color: currentColor;
+  border-radius: var(--border-radius);
+}
+[dir] .central-menu-loader-bar[data-v-9fe972e4] {
+  border-radius: var(--border-radius);
+  padding: 0.75rem 1rem;
+}
+.central-menu-loader-bar__text[data-v-9fe972e4] {
+  height: 1rem;
+  width: 100%;
+}
+[dir] .central-menu-loader-bar__text[data-v-9fe972e4] {
+  background-color: currentColor;
+  border-radius: var(--border-radius);
+}
+.dashboard-game-more[data-v-955ba74c] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+[dir] .dashboard-game-more[data-v-955ba74c] {
+  background-color: Hsl(var(--hsl-bg));
+  padding: 0.5rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+[dir="ltr"] .dashboard-game-more[data-v-955ba74c] {
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+[dir="rtl"] .dashboard-game-more[data-v-955ba74c] {
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+.dashboard-game-more--is-empty[data-v-955ba74c] {
+  pointer-events: none;
+}
+[dir]
+  .dashboard-game-more[data-v-955ba74c]:not(.dashboard-game-more--is-active, .dashboard-game-more:hover) {
+  border-bottom-color: Hsl(var(--hsl-sep));
+}
+[dir="ltr"]
+  .dashboard-game-more[data-v-955ba74c]:not(.dashboard-game-more--is-active, .dashboard-game-more:hover) {
+  border-left-color: Hsl(var(--hsl-sep));
+}
+[dir="rtl"]
+  .dashboard-game-more[data-v-955ba74c]:not(.dashboard-game-more--is-active, .dashboard-game-more:hover) {
+  border-right-color: Hsl(var(--hsl-sep));
+}
+.dashboard-game-more--is-active[data-v-955ba74c] {
+  text-decoration: none;
+}
+.is-keyboard-user .dashboard-game-more[data-v-955ba74c]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+.dashboard-game-more__count[data-v-955ba74c] {
+  display: flex;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  position: relative;
+}
+.dashboard-game-more--is-active .dashboard-game-more__count[data-v-955ba74c],
+.dashboard-game-more:hover .dashboard-game-more__count[data-v-955ba74c] {
+  color: Hsl(var(--hsl-clr));
+}
+.dashboard-game-more__count[data-v-955ba74c]:before {
+  content: "+";
+}
+.dashboard-game-more__marker[data-v-955ba74c] {
+  content: "";
+  position: absolute;
+  top: -0.375rem;
+}
+[dir] .dashboard-game-more__marker[data-v-955ba74c] {
+  transform: scale(0);
+  transition: transform 0.15s linear;
+}
+[dir="ltr"] .dashboard-game-more__marker[data-v-955ba74c] {
+  right: -0.375rem;
+}
+[dir="rtl"] .dashboard-game-more__marker[data-v-955ba74c] {
+  left: -0.375rem;
+}
+.dashboard-game-more:not(.dashboard-game-more--is-active, :hover)
+  .dashboard-game-more__marker[data-v-955ba74c] {
+  color: Hsl(var(--custom-marker-clr, var(--primary-80-clr-primary)));
+}
+[dir] .dashboard-game-more__marker--is-visible[data-v-955ba74c] {
+  transform: scale(1);
+}
+.dashboard-game-more--theme-gray-30.dashboard-game-more--is-active[data-v-955ba74c],
+.dashboard-game-more--theme-gray-30.dashboard-game-more[data-v-955ba74c]:hover {
+  --hsl-bg: var(--gray-30-bg);
+  --hsl-clr: var(--gray-30-clr);
+  --hsl-clr-accent: var(--gray-30-clr-accent);
+  --hsl-clr-decent: var(--gray-30-clr-decent);
+  --hsl-clr-strong: var(--gray-30-clr-strong);
+  --hsl-clr-strong-alt: var(--gray-30-clr-strong-alt);
+  --hsl-clr-primary: var(--gray-30-clr-primary);
+  --hsl-clr-good: var(--gray-30-clr-good);
+  --hsl-clr-bad: var(--gray-30-clr-bad);
+  --hsl-sep: var(--gray-30-sep);
+  --hsl-sep-alt: var(--gray-30-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir]
+  .dashboard-game-more--theme-gray-30.dashboard-game-more--is-active[data-v-955ba74c],
+[dir]
+  .dashboard-game-more--theme-gray-30.dashboard-game-more[data-v-955ba74c]:hover {
+  background-color: Hsla(var(--hsl-bg), 1);
+  border-bottom-color: Hsl(var(--hsl-bg));
+}
+[dir="ltr"]
+  .dashboard-game-more--theme-gray-30.dashboard-game-more--is-active[data-v-955ba74c],
+[dir="ltr"]
+  .dashboard-game-more--theme-gray-30.dashboard-game-more[data-v-955ba74c]:hover {
+  border-left-color: Hsl(var(--hsl-bg));
+}
+[dir="rtl"]
+  .dashboard-game-more--theme-gray-30.dashboard-game-more--is-active[data-v-955ba74c],
+[dir="rtl"]
+  .dashboard-game-more--theme-gray-30.dashboard-game-more[data-v-955ba74c]:hover {
+  border-right-color: Hsl(var(--hsl-bg));
+}
+.dashboard-game-more--theme-gray-30
+  .dashboard-game-more__count[data-v-955ba74c]:not(.dashboard-game-more:hover
+    .dashboard-game-more--theme-gray-30
+    .dashboard-game-more__count, .dashboard-game-more--is-active
+    .dashboard-game-more--theme-gray-30
+    .dashboard-game-more__count) {
+  color: Hsl(var(--hsl-clr-strong));
+}
+.dashboard-game-more--theme-primary.dashboard-game-more--is-active[data-v-955ba74c],
+.dashboard-game-more--theme-primary.dashboard-game-more[data-v-955ba74c]:hover {
+  --hsl-bg: var(--primary-0-bg);
+  --hsl-clr: var(--primary-0-clr);
+  --hsl-clr-accent: var(--primary-0-clr-accent);
+  --hsl-clr-decent: var(--primary-0-clr-decent);
+  --hsl-clr-strong: var(--primary-0-clr-strong);
+  --hsl-clr-strong-alt: var(--primary-0-clr-strong-alt);
+  --hsl-clr-primary: var(--primary-0-clr-primary);
+  --hsl-clr-good: var(--primary-0-clr-good);
+  --hsl-clr-bad: var(--primary-0-clr-bad);
+  --hsl-sep: var(--primary-0-sep);
+  --hsl-sep-alt: var(--primary-0-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir]
+  .dashboard-game-more--theme-primary.dashboard-game-more--is-active[data-v-955ba74c],
+[dir]
+  .dashboard-game-more--theme-primary.dashboard-game-more[data-v-955ba74c]:hover {
+  background-color: Hsla(var(--hsl-bg), 1);
+  border-bottom-color: Hsl(var(--hsl-clr-strong));
+}
+[dir="ltr"]
+  .dashboard-game-more--theme-primary.dashboard-game-more--is-active[data-v-955ba74c],
+[dir="ltr"]
+  .dashboard-game-more--theme-primary.dashboard-game-more[data-v-955ba74c]:hover {
+  border-left-color: Hsl(var(--hsl-clr-strong));
+}
+[dir="rtl"]
+  .dashboard-game-more--theme-primary.dashboard-game-more--is-active[data-v-955ba74c],
+[dir="rtl"]
+  .dashboard-game-more--theme-primary.dashboard-game-more[data-v-955ba74c]:hover {
+  border-right-color: Hsl(var(--hsl-clr-strong));
+}
+.dashboard-game-more--theme-primary-15[data-v-955ba74c] {
+  --custom-marker-clr: var(--custom-ui-market-highlight-clr-theme-primary-15);
+}
+.dashboard-game-more--theme-primary-15.dashboard-game-more--is-active[data-v-955ba74c],
+.dashboard-game-more--theme-primary-15.dashboard-game-more[data-v-955ba74c]:hover {
+  --hsl-bg: var(--primary-15-bg);
+  --hsl-clr: var(--primary-15-clr);
+  --hsl-clr-accent: var(--primary-15-clr-accent);
+  --hsl-clr-decent: var(--primary-15-clr-decent);
+  --hsl-clr-strong: var(--primary-15-clr-strong);
+  --hsl-clr-strong-alt: var(--primary-15-clr-strong-alt);
+  --hsl-clr-primary: var(--primary-15-clr-primary);
+  --hsl-clr-good: var(--primary-15-clr-good);
+  --hsl-clr-bad: var(--primary-15-clr-bad);
+  --hsl-sep: var(--primary-15-sep);
+  --hsl-sep-alt: var(--primary-15-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir]
+  .dashboard-game-more--theme-primary-15.dashboard-game-more--is-active[data-v-955ba74c],
+[dir]
+  .dashboard-game-more--theme-primary-15.dashboard-game-more[data-v-955ba74c]:hover {
+  background-color: Hsla(var(--hsl-bg), 1);
+  border-bottom-color: Hsl(var(--hsl-bg));
+}
+[dir="ltr"]
+  .dashboard-game-more--theme-primary-15.dashboard-game-more--is-active[data-v-955ba74c],
+[dir="ltr"]
+  .dashboard-game-more--theme-primary-15.dashboard-game-more[data-v-955ba74c]:hover {
+  border-left-color: Hsl(var(--hsl-bg));
+}
+[dir="rtl"]
+  .dashboard-game-more--theme-primary-15.dashboard-game-more--is-active[data-v-955ba74c],
+[dir="rtl"]
+  .dashboard-game-more--theme-primary-15.dashboard-game-more[data-v-955ba74c]:hover {
+  border-right-color: Hsl(var(--hsl-bg));
+}

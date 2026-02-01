@@ -1,0 +1,74 @@
+.top-events-info-gradient[data-v-58f1230c] {
+  --hsl-bg: var(--primary-0-bg);
+  --hsl-clr: var(--primary-0-clr);
+  --hsl-clr-accent: var(--primary-0-clr-accent);
+  --hsl-clr-decent: var(--primary-0-clr-decent);
+  --hsl-clr-strong: var(--primary-0-clr-strong);
+  --hsl-clr-strong-alt: var(--primary-0-clr-strong-alt);
+  --hsl-clr-primary: var(--primary-0-clr-primary);
+  --hsl-clr-good: var(--primary-0-clr-good);
+  --hsl-clr-bad: var(--primary-0-clr-bad);
+  --hsl-sep: var(--primary-0-sep);
+  --hsl-sep-alt: var(--primary-0-sep-alt);
+  color: Hsl(var(--hsl-clr));
+}
+[dir] .top-events-info-gradient[data-v-58f1230c] {
+  border-radius: var(--border-radius);
+}
+[dir="ltr"] .top-events-info-gradient[data-v-58f1230c] {
+  background-image: linear-gradient(
+    270deg,
+    Hsl(var(--specialAccent-0-bg)) 0,
+    Hsl(var(--hsl-bg)) 50%
+  );
+}
+[dir="rtl"] .top-events-info-gradient[data-v-58f1230c] {
+  background-image: linear-gradient(
+    -270deg,
+    Hsl(var(--specialAccent-0-bg)) 0,
+    Hsl(var(--hsl-bg)) 50%
+  );
+}
+.top-events-info-ticker[data-v-61a0c339] {
+  align-items: center;
+  -moz-column-gap: 0.25rem;
+  column-gap: 0.25rem;
+  display: flex;
+  overflow: hidden;
+}
+.top-events-info-ticker__text[data-v-61a0c339] {
+  align-items: center;
+  display: flex;
+  white-space: nowrap;
+}
+[dir="ltr"] .top-events-info-ticker__text[data-v-61a0c339] {
+  animation: ticker-ltr-61a0c339 60s linear infinite;
+}
+[dir="rtl"] .top-events-info-ticker__text[data-v-61a0c339] {
+  animation: ticker-rtl-61a0c339 60s linear infinite;
+}
+[dir] .top-events-info-ticker__separator[data-v-61a0c339] {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+@keyframes ticker-ltr-61a0c339 {
+  0% {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(-50%);
+  }
+}
+@keyframes ticker-rtl-61a0c339 {
+  0% {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(50%);
+  }
+}
+.top-events-info-ticker__text[data-v-61a0c339] {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  min-height: 4rem;
+}

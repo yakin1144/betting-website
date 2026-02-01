@@ -1,0 +1,30 @@
+.ui-betting-stepper[data-v-9843f70f] {
+  align-items: center;
+  -moz-column-gap: 0.25rem;
+  column-gap: 0.25rem;
+  display: flex;
+}
+.ui-betting-stepper__control[data-v-9843f70f] {
+  align-items: center;
+  display: flex;
+  height: 1rem;
+  justify-content: center;
+  width: 1rem;
+}
+.is-keyboard-user .ui-betting-stepper__control[data-v-9843f70f]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+.ui-betting-stepper__control[data-v-9843f70f]:hover {
+  color: Hsl(var(--hsl-clr-decent));
+}
+.ui-betting-stepper__status[data-v-9843f70f] {
+  display: flex;
+}
+.ui-betting-stepper__total[data-v-9843f70f]:before {
+  content: "/";
+}
+[dir] .ui-betting-stepper__total[data-v-9843f70f]:before {
+  margin-left: 1px;
+  margin-right: 1px;
+}

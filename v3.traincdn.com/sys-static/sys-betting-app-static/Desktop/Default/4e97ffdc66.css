@@ -1,0 +1,124 @@
+[dir]
+  .sports-menu-app-champ-group--has-border[data-v-dfc65a15]:not(.sports-menu-app-champ-group:last-child) {
+  border-bottom: 1px solid hsla(var(--primary-0-sep-alt), 0.5);
+}
+.sports-menu-app-champ-group--is-opened
+  .sports-menu-app-champ-group__list[data-v-dfc65a15] {
+  row-gap: 0.25rem;
+}
+[dir]
+  .sports-menu-app-champ-group--is-opened
+  .sports-menu-app-champ-group__list[data-v-dfc65a15] {
+  padding: 0.25rem;
+}
+.sports-menu-app-champ-group__toggle--is-decent[data-v-dfc65a15] {
+  color: Hsl(var(--hsl-clr-decent));
+}
+[dir] .sports-menu-app-champ-group__list[data-v-dfc65a15] {
+  padding: var(--sports-menu-app-champ-group-list-padding, none);
+}
+.sports-menu-app-country-group__toggle--is-decent[data-v-b580c5d7] {
+  color: Hsl(var(--hsl-clr-decent));
+}
+[dir]
+  .sports-menu-app-champ-with-sub-champs-group--has-border[data-v-4b15c472]:not(:last-child, .sports-menu-app-champ-with-sub-champs-group--has-border--is-opened),
+[dir]
+  .sports-menu-app-champ-with-sub-champs-group--is-opened
+  .sports-menu-app-champ-with-sub-champs-group__link[data-v-4b15c472] {
+  border-bottom: 1px solid hsla(var(--primary-0-sep-alt), 0.5);
+}
+.sports-menu-app-champ-with-sub-champs-group__toggle--is-decent[data-v-4b15c472] {
+  color: Hsl(var(--hsl-clr-decent));
+}
+[dir]
+  .sports-menu-app-champ-with-sub-champs-group--has-border
+  .sports-menu-app-champ-with-sub-champs-group__item[data-v-4b15c472]:not(:last-child) {
+  border-bottom: 1px solid hsla(var(--primary-0-sep-alt), 0.5);
+}
+[dir]
+  .sports-menu-app-sport--is-nested.sports-menu-app-sport--has-border[data-v-ffebe07b]:not(:last-child) {
+  border-bottom: 1px solid hsla(var(--primary-0-sep-alt), 0.5);
+}
+.sports-menu-app-sport--is-opened
+  .sports-menu-app-sport__content[data-v-ffebe07b] {
+  --hsl-bg: var(--gray-30-bg);
+  --hsl-clr: var(--gray-30-clr);
+  --hsl-clr-accent: var(--gray-30-clr-accent);
+  --hsl-clr-decent: var(--gray-30-clr-decent);
+  --hsl-clr-strong: var(--gray-30-clr-strong);
+  --hsl-clr-strong-alt: var(--gray-30-clr-strong-alt);
+  --hsl-clr-primary: var(--gray-30-clr-primary);
+  --hsl-clr-good: var(--gray-30-clr-good);
+  --hsl-clr-bad: var(--gray-30-clr-bad);
+  --hsl-sep: var(--gray-30-sep);
+  --hsl-sep-alt: var(--gray-30-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+  overflow: hidden;
+}
+[dir]
+  .sports-menu-app-sport--is-opened
+  .sports-menu-app-sport__content[data-v-ffebe07b] {
+  background-color: Hsla(var(--hsl-bg), 1);
+  border-radius: var(--border-radius);
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+[dir]
+  .sports-menu-app-sport--is-opened:not(.sports-menu-app-sport--is-nested)
+  .sports-menu-app-sport__link[data-v-ffebe07b] {
+  border-bottom: 1px solid hsl(var(--primary-75-bg));
+}
+.sports-menu-app-sport--is-opened.sports-menu-app-sport--is-nested
+  .sports-menu-app-sport__content[data-v-ffebe07b] {
+  --hsl-bg: var(--primary-50-bg);
+  --hsl-clr: var(--primary-50-clr);
+  --hsl-clr-accent: var(--primary-50-clr-accent);
+  --hsl-clr-decent: var(--primary-50-clr-decent);
+  --hsl-clr-strong: var(--primary-50-clr-strong);
+  --hsl-clr-strong-alt: var(--primary-50-clr-strong-alt);
+  --hsl-clr-primary: var(--primary-50-clr-primary);
+  --hsl-clr-good: var(--primary-50-clr-good);
+  --hsl-clr-bad: var(--primary-50-clr-bad);
+  --hsl-sep: var(--primary-50-sep);
+  --hsl-sep-alt: var(--primary-50-sep-alt);
+}
+[dir]
+  .sports-menu-app-sport--is-opened.sports-menu-app-sport--is-nested
+  .sports-menu-app-sport__link[data-v-ffebe07b] {
+  border-bottom: 1px solid hsl(var(--primary-100-bg));
+}
+.sports-menu-app-sport__ico--is-decent[data-v-ffebe07b],
+.sports-menu-app-sport__toggle--is-decent[data-v-ffebe07b] {
+  color: Hsl(var(--hsl-clr-decent));
+}
+.sports-menu-app-sport__content--theme-primary[data-v-ffebe07b] {
+  --hsl-bg: var(--primary-0-bg);
+  --hsl-clr: var(--primary-0-clr);
+  --hsl-clr-accent: var(--primary-0-clr-accent);
+  --hsl-clr-decent: var(--primary-0-clr-decent);
+  --hsl-clr-strong: var(--primary-0-clr-strong);
+  --hsl-clr-strong-alt: var(--primary-0-clr-strong-alt);
+  --hsl-clr-primary: var(--primary-0-clr-primary);
+  --hsl-clr-good: var(--primary-0-clr-good);
+  --hsl-clr-bad: var(--primary-0-clr-bad);
+  --hsl-sep: var(--primary-0-sep);
+  --hsl-sep-alt: var(--primary-0-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir] .sports-menu-app-sport__content--theme-primary[data-v-ffebe07b] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+[dir] .sports-menu-group[data-v-430ada96] > :first-child {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+[dir]
+  .sports-menu-group[data-v-430ada96]
+  > :last-child:not(.sports-menu-group
+    > :last-child--is-opened, .sports-menu-group__category--is-opened),
+[dir]
+  .sports-menu-group__category[data-v-430ada96]:not(.sports-menu-group
+    > :last-child--is-opened, .sports-menu-group__category--is-opened) {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}

@@ -1,0 +1,118 @@
+.ui-game-scores[data-v-6415f7c2] {
+  display: flex;
+}
+.ui-game-scores__item[data-v-6415f7c2] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: space-between;
+  position: relative;
+}
+[dir="ltr"] .ui-game-scores__item[data-v-6415f7c2]:nth-child(n + 2) {
+  margin-left: 0.25rem;
+}
+[dir="rtl"] .ui-game-scores__item[data-v-6415f7c2]:nth-child(n + 2) {
+  margin-right: 0.25rem;
+}
+.ui-game-scores__item:not(.ui-game-scores--current)
+  .ui-game-scores[data-v-6415f7c2],
+.ui-game-scores__item:not(.ui-game-scores--total)
+  .ui-game-scores[data-v-6415f7c2] {
+  opacity: 0.65;
+}
+.ui-game-scores__item--total[data-v-6415f7c2] {
+  color: Hsl(var(--custom-total-score));
+  font-weight: 700;
+}
+.ui-game-scores__num[data-v-6415f7c2] {
+  display: block;
+  font-size: 0.75rem;
+}
+[dir] .ui-game-scores__num[data-v-6415f7c2] {
+  text-align: center;
+}
+.ui-game-scores__inning[data-v-6415f7c2] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+[dir] .ui-game-scores__inning--second[data-v-6415f7c2] {
+  margin-top: auto;
+}
+[dir]
+  .ui-game-scores--is-asia
+  .ui-game-scores__num[data-v-6415f7c2]:nth-child(n + 2) {
+  margin-top: 2px;
+}
+[xlang="my"] .ui-game-scores__item--inning[data-v-6415f7c2] {
+  padding-bottom: 0.5ex;
+  padding-top: 0.5ex;
+}
+.ui-game-scores--size-s .ui-game-scores__num[data-v-6415f7c2] {
+  line-height: 1rem;
+}
+[dir]
+  .ui-game-scores--size-s
+  .ui-game-scores__num[data-v-6415f7c2]:nth-child(n + 2) {
+  margin-top: 0.25rem;
+}
+.ui-game-scores--size-s .ui-game-scores__inning[data-v-6415f7c2] {
+  font-size: 0.5625rem;
+  height: 1rem;
+}
+[dir="ltr"]
+  .ui-game-scores--size-m
+  .ui-game-scores__item[data-v-6415f7c2]:nth-child(n + 2) {
+  margin-left: var(--ui-game-scores-item-child-margin-left, 0.25rem);
+}
+[dir="rtl"]
+  .ui-game-scores--size-m
+  .ui-game-scores__item[data-v-6415f7c2]:nth-child(n + 2) {
+  margin-right: var(--ui-game-scores-item-child-margin-left, 0.25rem);
+}
+[dir="ltr"]
+  .ui-game-scores--size-m
+  .ui-game-scores__item--current[data-v-6415f7c2]:nth-child(n + 2) {
+  margin-left: var(--ui-game-scores-item-child-current-margin-left, 0.5rem);
+}
+[dir="rtl"]
+  .ui-game-scores--size-m
+  .ui-game-scores__item--current[data-v-6415f7c2]:nth-child(n + 2) {
+  margin-right: var(--ui-game-scores-item-child-current-margin-left, 0.5rem);
+}
+.ui-game-scores--size-m
+  .ui-game-scores__item--current[data-v-6415f7c2]:nth-child(n + 2):before {
+  bottom: 0.3125rem;
+  content: "";
+  position: absolute;
+  top: 0.3125rem;
+  width: 1px;
+}
+[dir]
+  .ui-game-scores--size-m
+  .ui-game-scores__item--current[data-v-6415f7c2]:nth-child(n + 2):before {
+  background-color: Hsl(var(--hsl-sep));
+}
+[dir="ltr"]
+  .ui-game-scores--size-m
+  .ui-game-scores__item--current[data-v-6415f7c2]:nth-child(n + 2):before {
+  left: var(--ui-game-scores-sep-left, -0.25rem);
+}
+[dir="rtl"]
+  .ui-game-scores--size-m
+  .ui-game-scores__item--current[data-v-6415f7c2]:nth-child(n + 2):before {
+  right: var(--ui-game-scores-sep-left, -0.25rem);
+}
+.ui-game-scores--size-m .ui-game-scores__num[data-v-6415f7c2] {
+  line-height: var(--ui-game-scores-num-line-height, 1.0625rem);
+  min-width: var(--ui-game-scores-num-min-width, 1.0625rem);
+}
+[dir]
+  .ui-game-scores--size-m
+  .ui-game-scores__num[data-v-6415f7c2]:nth-child(n + 2) {
+  margin-top: var(--ui-game-scores-num-child-margin-top, 0.5rem);
+}
+.ui-game-scores--size-m .ui-game-scores__inning[data-v-6415f7c2] {
+  font-size: var(--ui-game-scores-inning-font-size, 0.6875rem);
+  height: var(--ui-game-scores-inning-height, 1.0625rem);
+}

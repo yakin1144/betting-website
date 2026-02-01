@@ -1,0 +1,152 @@
+.header-mf[data-v-1bd376d9] {
+  position: relative;
+  z-index: 2000;
+}
+a[data-v-ed51ac6e] {
+  color: #7f7ffd;
+}
+a[data-v-ed51ac6e]:hover {
+  color: #3b3be5;
+}
+.root[data-v-ed51ac6e] {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title[data-v-ed51ac6e] {
+  font-size: 1.875rem;
+}
+[dir] .title[data-v-ed51ac6e] {
+  margin: 1.25rem 0;
+}
+.route[data-v-ed51ac6e] {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+[dir] .route[data-v-ed51ac6e] {
+  border: 1px solid wheat;
+  margin: 0.625rem 0;
+  padding: 0.9375rem;
+}
+[dir] .route div[data-v-ed51ac6e] {
+  margin-bottom: 0.9375rem;
+}
+.games-skeleton[data-v-c6d36396] {
+  overflow: hidden;
+  position: relative;
+}
+[dir] .games-skeleton[data-v-c6d36396] {
+  background-color: hsl(var(--gray-100-bg));
+}
+.games-third-party-slider-loader[data-v-b23bfd89] {
+  -moz-column-gap: 0.5rem;
+  column-gap: 0.5rem;
+  display: flex;
+}
+[dir] .games-third-party-slider-loader[data-v-b23bfd89] {
+  background-color: Hsl(var(--hsl-bg));
+  padding-bottom: 0.5rem;
+}
+.games-third-party-slider-loader__item[data-v-b23bfd89] {
+  flex-shrink: 0;
+  height: 11em;
+  width: 17em;
+}
+[dir] .games-third-party-slider-loader__item[data-v-b23bfd89] {
+  background-color: Hsl(var(--primary--20-bg));
+  border-radius: var(--border-radius);
+}
+.games-slider-loader[data-v-7d4de1e6] {
+  color: hsl(var(--primary--20-bg));
+  -moz-column-gap: 0.5rem;
+  column-gap: 0.5rem;
+  display: flex;
+}
+[dir] .games-slider-loader[data-v-7d4de1e6] {
+  background-color: hsl(var(--hsl-bg));
+  padding-bottom: 0.5rem;
+}
+.games-slider-loader__item[data-v-7d4de1e6] {
+  flex-shrink: 0;
+  height: 7.875em;
+  width: 11.875em;
+}
+[dir] .games-slider-loader__item[data-v-7d4de1e6] {
+  background-color: currentColor;
+  border-radius: var(--border-radius);
+}
+.games-project-frame[data-v-c5bfc65a] {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.games-project-frame__loader[data-v-c5bfc65a] {
+  bottom: 0;
+  flex-grow: 1;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+[dir] .games-project-frame__loader[data-v-c5bfc65a] {
+  background: Hsl(var(--hsl-bg));
+  left: 0;
+  right: 0;
+}
+.games-project-frame__item[data-v-c5bfc65a] {
+  height: 100%;
+  width: 100%;
+  will-change: height;
+}
+[dir] .game-widget-dropdown__toggle[data-v-a73b5c47] {
+  border-radius: var(--border-radius);
+}
+[dir] .game-widget-dropdown__toggle--opened[data-v-a73b5c47] {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+[dir] .game-widget__container[data-v-a73b5c47] {
+  border-radius: var(--border-radius);
+}
+[dir] .game-widget__container[data-v-a73b5c47] > :last-child {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+.game-widget__frame[data-v-a73b5c47] {
+  height: 24.25rem;
+  position: relative;
+}
+.game-widgets[data-v-f473d127] {
+  display: flex;
+  flex-direction: column;
+}
+.game-widgets.ui-nav-items[data-v-f473d127] {
+  grid-row-gap: 0.5rem;
+}
+.games-project-frame[data-v-410df43a] {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.games-project-frame__loader[data-v-410df43a] {
+  bottom: 0;
+  flex-grow: 1;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+[dir] .games-project-frame__loader[data-v-410df43a] {
+  background: hsl(var(--hsl-bg));
+  left: 0;
+  right: 0;
+}
+.games-project-frame__item[data-v-410df43a] {
+  height: 100vh;
+  width: 100%;
+  will-change: height;
+}
+.games-project-frame__item--hidden[data-v-410df43a] {
+  opacity: 0;
+}

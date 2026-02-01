@@ -1,0 +1,389 @@
+html .s-swal2.swal2-container {
+  z-index: 150000;
+}
+html[dir] .s-swal2.swal2-container.swal2-backdrop-show,
+html[dir] .s-swal2.swal2-container.swal2-shown {
+  background-color: Hsla(var(--custom-modal-overlay-bg), 0.7);
+}
+html .s-swal2 .swal2-popup {
+  --hsl-bg: var(--gray-100-bg);
+  --hsl-clr: var(--gray-100-clr);
+  --hsl-clr-accent: var(--gray-100-clr-accent);
+  --hsl-clr-decent: var(--gray-100-clr-decent);
+  --hsl-clr-strong: var(--gray-100-clr-strong);
+  --hsl-clr-strong-alt: var(--gray-100-clr-strong-alt);
+  --hsl-clr-primary: var(--gray-100-clr-primary);
+  --hsl-clr-good: var(--gray-100-clr-good);
+  --hsl-clr-bad: var(--gray-100-clr-bad);
+  --hsl-sep: var(--gray-100-sep);
+  --hsl-sep-alt: var(--gray-100-sep-alt);
+  color: Hsl(var(--swal2-popup-clr, var(--hsl-clr-strong)));
+  min-width: 19.0625rem;
+  width: -moz-min-content;
+  width: min-content;
+}
+html[dir] .s-swal2 .swal2-popup {
+  background-color: Hsl(var(--swal2-popup-bg, var(--hsl-bg)));
+  border-radius: var(--border-radius);
+  padding: 2.5rem 1rem 1rem;
+}
+html .s-swal2 .swal2-popup--good .swal2-confirm {
+  --hsl-bg: var(--accent-0-bg);
+  --hsl-clr: var(--accent-0-clr);
+  --hsl-clr-accent: var(--accent-0-clr-accent);
+  --hsl-clr-decent: var(--accent-0-clr-decent);
+  --hsl-clr-strong: var(--accent-0-clr-strong);
+  --hsl-clr-strong-alt: var(--accent-0-clr-strong-alt);
+  --hsl-clr-primary: var(--accent-0-clr-primary);
+  --hsl-clr-good: var(--accent-0-clr-good);
+  --hsl-clr-bad: var(--accent-0-clr-bad);
+  --hsl-sep: var(--accent-0-sep);
+  --hsl-sep-alt: var(--accent-0-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+html[dir] .s-swal2 .swal2-popup--good .swal2-confirm {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+html .s-swal2 .swal2-popup--good .swal2-confirm:hover {
+  --hsl-bg: var(--accent-15-bg);
+  --hsl-clr: var(--accent-15-clr);
+  --hsl-clr-accent: var(--accent-15-clr-accent);
+  --hsl-clr-decent: var(--accent-15-clr-decent);
+  --hsl-clr-strong: var(--accent-15-clr-strong);
+  --hsl-clr-strong-alt: var(--accent-15-clr-strong-alt);
+  --hsl-clr-primary: var(--accent-15-clr-primary);
+  --hsl-clr-good: var(--accent-15-clr-good);
+  --hsl-clr-bad: var(--accent-15-clr-bad);
+  --hsl-sep: var(--accent-15-sep);
+  --hsl-sep-alt: var(--accent-15-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+html[dir] .s-swal2 .swal2-popup--good .swal2-confirm:hover {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+html .s-swal2 .swal2-popup--good .swal2-title {
+  color: Hsla(var(--status-icon-title-success));
+}
+html .s-swal2 .swal2-popup--bad .swal2-title {
+  color: Hsl(var(--swal2-popup-clr-title-bad, var(--hsl-clr-bad)));
+}
+html .s-swal2 .swal2-popup--bad .swal2-confirm {
+  --hsl-bg: var(--gray-0-bg);
+  --hsl-clr: var(--gray-0-clr);
+  --hsl-clr-accent: var(--gray-0-clr-accent);
+  --hsl-clr-decent: var(--gray-0-clr-decent);
+  --hsl-clr-strong: var(--gray-0-clr-strong);
+  --hsl-clr-strong-alt: var(--gray-0-clr-strong-alt);
+  --hsl-clr-primary: var(--gray-0-clr-primary);
+  --hsl-clr-good: var(--gray-0-clr-good);
+  --hsl-clr-bad: var(--gray-0-clr-bad);
+  --hsl-sep: var(--gray-0-sep);
+  --hsl-sep-alt: var(--gray-0-sep-alt);
+  color: Hsl(var(--swal2-confirm-bad-clr, var(--hsl-clr)));
+}
+html[dir] .s-swal2 .swal2-popup--bad .swal2-confirm {
+  background-color: Hsl(var(--swal2-confirm-bad, var(--hsl-bg)));
+}
+html .s-swal2 .swal2-popup--bad .swal2-confirm:hover {
+  --hsl-bg: var(--gray-10-bg);
+  --hsl-clr: var(--gray-10-clr);
+  --hsl-clr-accent: var(--gray-10-clr-accent);
+  --hsl-clr-decent: var(--gray-10-clr-decent);
+  --hsl-clr-strong: var(--gray-10-clr-strong);
+  --hsl-clr-strong-alt: var(--gray-10-clr-strong-alt);
+  --hsl-clr-primary: var(--gray-10-clr-primary);
+  --hsl-clr-good: var(--gray-10-clr-good);
+  --hsl-clr-bad: var(--gray-10-clr-bad);
+  --hsl-sep: var(--gray-10-sep);
+  --hsl-sep-alt: var(--gray-10-sep-alt);
+  color: Hsl(var(--swal2-confirm-bad-clr-hover, var(--hsl-clr)));
+}
+html[dir] .s-swal2 .swal2-popup--bad .swal2-confirm:hover {
+  background-color: Hsl(var(--swal2-confirm-bad-hover, var(--hsl-bg)));
+}
+html[dir] .s-swal2 .swal2-content,
+html[dir] .s-swal2 .swal2-header {
+  padding-left: 0;
+  padding-right: 0;
+}
+html .s-swal2--size-l .swal2-popup {
+  min-width: 21.5625rem;
+  width: -moz-min-content;
+  width: min-content;
+}
+html .s-swal2 .swal2-close {
+  color: Hsl(var(--hsl-clr-decent));
+  font-family: Times, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  height: 2.25rem;
+  width: 2.25rem;
+}
+html .s-swal2 .swal2-close:hover {
+  color: Hsl(var(--hsl-clr));
+}
+html .s-swal2 .swal2-icon {
+  align-items: center;
+  box-sizing: inherit;
+  display: flex;
+  height: 4.5rem;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 4.5rem;
+}
+html[dir] .s-swal2 .swal2-icon {
+  border: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px Hsla(var(--status-icon-box-shadow));
+  margin: 0 auto 2.5rem;
+}
+html .s-swal2 .swal2-icon:before {
+  content: "";
+  font-size: inherit;
+  height: 100%;
+  opacity: 0.15;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+html[dir] .s-swal2 .swal2-icon:before {
+  border-radius: inherit;
+}
+html[dir="ltr"] .s-swal2 .swal2-icon:before {
+  left: 0;
+  transform: translate(30%, -30%);
+}
+html[dir="rtl"] .s-swal2 .swal2-icon:before {
+  right: 0;
+  transform: translate(-30%, -30%);
+}
+html[dir] .s-swal2 .swal2-icon--error {
+  background-color: Hsla(var(--status-icon-bg-error));
+}
+html[dir] .s-swal2 .swal2-icon--error:before {
+  background-color: Hsla(var(--status-icon-bg-error-before));
+}
+html .s-swal2 .swal2-icon--error .swal2-icon-content {
+  color: Hsla(var(--status-icon-clr-error));
+}
+html[dir] .s-swal2 .swal2-icon--success {
+  background-color: Hsla(var(--status-icon-bg-success));
+}
+html[dir] .s-swal2 .swal2-icon--success:before {
+  background-color: Hsla(var(--status-icon-bg-success-before));
+}
+html .s-swal2 .swal2-icon--success .swal2-icon-content {
+  color: Hsla(var(--status-icon-clr-success));
+}
+html[dir] .s-swal2 .swal2-icon--info,
+html[dir] .s-swal2 .swal2-icon--question,
+html[dir] .s-swal2 .swal2-icon--warning {
+  background-color: Hsla(var(--status-icon-bg));
+}
+html[dir] .s-swal2 .swal2-icon--info:before,
+html[dir] .s-swal2 .swal2-icon--question:before,
+html[dir] .s-swal2 .swal2-icon--warning:before {
+  background-color: Hsla(var(--status-icon-bg-before));
+}
+html .s-swal2 .swal2-icon--info .swal2-icon-content,
+html .s-swal2 .swal2-icon--question .swal2-icon-content,
+html .s-swal2 .swal2-icon--warning .swal2-icon-content {
+  color: Hsla(var(--status-icon-clr));
+}
+html .s-swal2 .swal2-icon .swal2-icon-content {
+  font-size: 1rem;
+  height: 2.25rem;
+  width: 2.25rem;
+}
+html .s-swal2 .swal2-title {
+  color: Hsla(var(--status-icon-title));
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+html[dir] .s-swal2 .swal2-title {
+  margin-bottom: 0.25rem;
+}
+html .s-swal2 .swal2-content-box {
+  color: inherit;
+  font-size: inherit;
+}
+html .s-swal2 .swal2-content-box.swal2-content {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+html .s-swal2 .swal2-content-box.swal2-content .swal2-content__info {
+  color: Hsl(var(--hsl-clr-decent));
+}
+html[dir] .s-swal2 .swal2-content-box.swal2-content .swal2-content__info {
+  border-top: 1px solid hsl(var(--hsl-sep));
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+}
+html .s-swal2 .swal2-actions {
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+html[dir] .s-swal2 .swal2-actions {
+  margin-top: 1.25rem;
+}
+html .s-swal2 .swal2-cancel,
+html .s-swal2 .swal2-confirm {
+  flex: 100% 1 1;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  min-height: 2rem;
+  min-width: 0;
+  text-transform: var(--swal-button-uppercase, uppercase);
+}
+html[dir] .s-swal2 .swal2-cancel,
+html[dir] .s-swal2 .swal2-confirm {
+  border-radius: var(--ui-button-custom-border-radius, var(--border-radius));
+  padding: 0.25rem;
+  text-align: center;
+}
+html[dir="ltr"] .s-swal2 .swal2-cancel:nth-child(n + 2),
+html[dir="ltr"] .s-swal2 .swal2-confirm:nth-child(n + 2) {
+  margin-left: 0.5rem;
+}
+html[dir="rtl"] .s-swal2 .swal2-cancel:nth-child(n + 2),
+html[dir="rtl"] .s-swal2 .swal2-confirm:nth-child(n + 2) {
+  margin-right: 0.5rem;
+}
+html .s-swal2 .swal2-confirm {
+  --hsl-bg: var(--primary-0-bg);
+  --hsl-clr: var(--primary-0-clr);
+  --hsl-clr-accent: var(--primary-0-clr-accent);
+  --hsl-clr-decent: var(--primary-0-clr-decent);
+  --hsl-clr-strong: var(--primary-0-clr-strong);
+  --hsl-clr-strong-alt: var(--primary-0-clr-strong-alt);
+  --hsl-clr-primary: var(--primary-0-clr-primary);
+  --hsl-clr-good: var(--primary-0-clr-good);
+  --hsl-clr-bad: var(--primary-0-clr-bad);
+  --hsl-sep: var(--primary-0-sep);
+  --hsl-sep-alt: var(--primary-0-sep-alt);
+  color: Hsl(var(--swal2-confirm-clr, var(--hsl-clr-strong)));
+}
+html[dir] .s-swal2 .swal2-confirm {
+  background-color: Hsl(var(--swal2-confirm, var(--hsl-bg)));
+}
+html .s-swal2 .swal2-confirm:hover {
+  --hsl-bg: var(--primary-10-bg);
+  --hsl-clr: var(--primary-10-clr);
+  --hsl-clr-accent: var(--primary-10-clr-accent);
+  --hsl-clr-decent: var(--primary-10-clr-decent);
+  --hsl-clr-strong: var(--primary-10-clr-strong);
+  --hsl-clr-strong-alt: var(--primary-10-clr-strong-alt);
+  --hsl-clr-primary: var(--primary-10-clr-primary);
+  --hsl-clr-good: var(--primary-10-clr-good);
+  --hsl-clr-bad: var(--primary-10-clr-bad);
+  --hsl-sep: var(--primary-10-sep);
+  --hsl-sep-alt: var(--primary-10-sep-alt);
+  color: Hsl(var(--swal2-confirm-clr-hover, var(--hsl-clr)));
+}
+html[dir] .s-swal2 .swal2-confirm:hover {
+  background-color: Hsl(var(--swal2-confirm-hover, var(--hsl-bg)));
+}
+html .s-swal2 .swal2-cancel {
+  --hsl-bg: var(--gray-0-bg);
+  --hsl-clr: var(--gray-0-clr);
+  --hsl-clr-accent: var(--gray-0-clr-accent);
+  --hsl-clr-decent: var(--gray-0-clr-decent);
+  --hsl-clr-strong: var(--gray-0-clr-strong);
+  --hsl-clr-strong-alt: var(--gray-0-clr-strong-alt);
+  --hsl-clr-primary: var(--gray-0-clr-primary);
+  --hsl-clr-good: var(--gray-0-clr-good);
+  --hsl-clr-bad: var(--gray-0-clr-bad);
+  --hsl-sep: var(--gray-0-sep);
+  --hsl-sep-alt: var(--gray-0-sep-alt);
+  color: Hsl(var(--swal2-cancel-clr, var(--hsl-clr)));
+}
+html[dir] .s-swal2 .swal2-cancel {
+  background-color: Hsl(var(--swal2-cancel, var(--hsl-bg)));
+}
+html .s-swal2 .swal2-cancel:hover {
+  --hsl-bg: var(--gray-10-bg);
+  --hsl-clr: var(--gray-10-clr);
+  --hsl-clr-accent: var(--gray-10-clr-accent);
+  --hsl-clr-decent: var(--gray-10-clr-decent);
+  --hsl-clr-strong: var(--gray-10-clr-strong);
+  --hsl-clr-strong-alt: var(--gray-10-clr-strong-alt);
+  --hsl-clr-primary: var(--gray-10-clr-primary);
+  --hsl-clr-good: var(--gray-10-clr-good);
+  --hsl-clr-bad: var(--gray-10-clr-bad);
+  --hsl-sep: var(--gray-10-sep);
+  --hsl-sep-alt: var(--gray-10-sep-alt);
+  color: Hsl(var(--swal2-cancel-clr-hover, var(--hsl-clr)));
+}
+html[dir] .s-swal2 .swal2-cancel:hover {
+  background-color: Hsl(var(--swal2-cancel-hover, var(--hsl-bg)));
+}
+html .s-swal2 .swal2-recaptcha {
+  display: flex;
+  justify-content: center;
+}
+html[dir] .s-swal2 .swal2-recaptcha {
+  margin-top: 0.75rem;
+}
+html[dir] .s-swal2 html .s-swal2-loading {
+  background-color: transparent;
+}
+html .s-swal2__text {
+  display: inline-block;
+}
+html .s-swal2__text--small {
+  font-size: smaller;
+}
+html[dir] .s-swal2__text--small {
+  margin-top: 0.5rem;
+}
+html .s-swal2 .swal2-label__strong {
+  font-weight: 700;
+}
+html .s-swal2 .swal2-label__uppercase {
+  text-transform: uppercase;
+}
+html .s-swal2--captcha .swal2-popup {
+  min-width: 17.625rem;
+  width: auto;
+}
+html[dir] .s-swal2--captcha .swal2-popup {
+  border-radius: var(--border-radius);
+  padding: 1.25rem 0.75rem 0.75rem;
+}
+html .s-swal2--captcha .swal2-close {
+  color: #595959;
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 2rem;
+}
+html .s-swal2--captcha .swal2-close:focus {
+  outline: unset;
+}
+html .s-swal2--captcha .swal2-content-box.swal2-content {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+html .s-swal2--captcha .pain-puzzle {
+  overflow: unset;
+}
+html[dir] .s-swal2--captcha .pain-puzzle {
+  padding: 0;
+}
+html[dir] .s-swal2--captcha .pain-puzzle__order {
+  margin-bottom: 0.75rem;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+html[dir="ltr"] .s-swal2--captcha .pain-puzzle__button--reload {
+  margin-right: 0.75rem;
+}
+html[dir="rtl"] .s-swal2--captcha .pain-puzzle__button--reload {
+  margin-left: 0.75rem;
+}
+[dir="rtl"] html .s-swal2--captcha .pain-puzzle__button--reload {
+  margin-right: 0;
+}

@@ -1,0 +1,79 @@
+.dashboard-game-action-bar[data-v-6d9e1cc0] {
+  display: flex;
+  flex-wrap: wrap;
+}
+.dashboard-game-action-bar[data-v-6d9e1cc0]
+  .dashboard-game-action-bar__dropdown {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+[dir]
+  .dashboard-game-action-bar[data-v-6d9e1cc0]
+  .dashboard-game-action-bar__dropdown {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.dashboard-game-action-bar__trigger[data-v-6d9e1cc0] {
+  align-items: center;
+  -moz-column-gap: 2px;
+  column-gap: 2px;
+  display: flex;
+  height: 1.5rem;
+}
+.dashboard-game-action-bar__trigger--is-open[data-v-6d9e1cc0] {
+  color: Hsl(var(--hsl-clr-accent));
+}
+.is-keyboard-user .dashboard-game-action-bar__trigger[data-v-6d9e1cc0]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+.dashboard-game-action-bar__actions[data-v-6d9e1cc0] {
+  width: 15.625rem;
+}
+[dir] .dashboard-game-action-bar__actions[data-v-6d9e1cc0] {
+  border-radius: inherit;
+}
+.dashboard-game-action-bar__angle[data-v-6d9e1cc0] {
+  font-size: 0.625rem;
+}
+[dir="ltr"]
+  .dashboard-game-action-bar__trigger--is-open
+  .dashboard-game-action-bar__angle[data-v-6d9e1cc0] {
+  transform: rotate(180deg);
+}
+[dir="rtl"]
+  .dashboard-game-action-bar__trigger--is-open
+  .dashboard-game-action-bar__angle[data-v-6d9e1cc0] {
+  transform: rotate(-180deg);
+}
+.dashboard-game-action-bar__ico[data-v-6d9e1cc0] {
+  flex-shrink: 0;
+}
+[dir] .dashboard-game-action-bar__item[data-v-6d9e1cc0] {
+  padding: 2px;
+}
+.dashboard-game-action-bar__item[data-v-6d9e1cc0]:not(.dashboard-game-action-bar__item--is-active):hover {
+  opacity: 0.8;
+}
+.dashboard-game-action-bar__item--is-active[data-v-6d9e1cc0] {
+  color: Hsl(var(--hsl-clr-accent));
+}
+.is-keyboard-user .dashboard-game-action-bar__item[data-v-6d9e1cc0]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+.dashboard-game-action-bar__group[data-v-6d9e1cc0] {
+  display: flex;
+}
+[dir="ltr"]
+  .dashboard-game-action-bar__group[data-v-6d9e1cc0]:not(:first-child),
+[dir="ltr"]
+  .dashboard-game-action-bar__item[data-v-6d9e1cc0]:not(:first-child) {
+  margin-left: 0.25rem;
+}
+[dir="rtl"]
+  .dashboard-game-action-bar__group[data-v-6d9e1cc0]:not(:first-child),
+[dir="rtl"]
+  .dashboard-game-action-bar__item[data-v-6d9e1cc0]:not(:first-child) {
+  margin-right: 0.25rem;
+}

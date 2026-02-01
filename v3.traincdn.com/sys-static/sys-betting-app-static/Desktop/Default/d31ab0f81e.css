@@ -1,0 +1,188 @@
+.ui-sports-menu-head[data-v-52fb390b] {
+  display: var(--sports-menu-head-display, block);
+  row-gap: var(--sports-menu-head-row-gap, none);
+}
+[dir] .ui-sports-menu-head[data-v-52fb390b] > :last-child {
+  border-bottom-left-radius: var(--sports-menu-head-border-radius, inherit);
+  border-bottom-right-radius: var(--sports-menu-head-border-radius, inherit);
+}
+.ui-sports-menu-head__title[data-v-52fb390b] {
+  --hsl-bg: var(--primary-0-bg);
+  --hsl-clr: var(--primary-0-clr);
+  --hsl-clr-accent: var(--primary-0-clr-accent);
+  --hsl-clr-decent: var(--primary-0-clr-decent);
+  --hsl-clr-strong: var(--primary-0-clr-strong);
+  --hsl-clr-strong-alt: var(--primary-0-clr-strong-alt);
+  --hsl-clr-primary: var(--primary-0-clr-primary);
+  --hsl-clr-good: var(--primary-0-clr-good);
+  --hsl-clr-bad: var(--primary-0-clr-bad);
+  --hsl-sep: var(--primary-0-sep);
+  --hsl-sep-alt: var(--primary-0-sep-alt);
+  align-items: center;
+  color: Hsla(var(--hsl-clr), 1);
+  display: flex;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  min-height: 2rem;
+}
+[dir] .ui-sports-menu-head__title[data-v-52fb390b] {
+  background-color: Hsla(var(--hsl-bg), 1);
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  padding: 0.25rem 0.5rem;
+}
+.ui-sports-menu-head__row[data-v-52fb390b] {
+  align-items: center;
+  display: flex;
+  min-height: 2rem;
+}
+[dir] .ui-sports-menu-head__row[data-v-52fb390b] {
+  border-radius: var(--sports-menu-head-border-radius, none);
+  margin-bottom: var(--sports-menu-head-row-margin-bottom, none);
+  padding: 0.25rem 0.5rem;
+}
+[dir="ltr"] .ui-sports-menu-head__row[data-v-52fb390b] {
+  margin-left: var(--sports-menu-head-row-margin-left, none);
+  margin-right: var(--sports-menu-head-row-margin-right, none);
+}
+[dir="rtl"] .ui-sports-menu-head__row[data-v-52fb390b] {
+  margin-left: var(--sports-menu-head-row-margin-right, none);
+  margin-right: var(--sports-menu-head-row-margin-left, none);
+}
+.ui-sports-menu-head__controls[data-v-52fb390b] {
+  color: Hsl(var(--custom-sports-menu-head-controls-clr, var(--hsl-clr)));
+  display: flex;
+  flex-shrink: 0;
+}
+[dir] .ui-sports-menu-head__controls[data-v-52fb390b] {
+  margin-bottom: -0.25rem;
+  margin-top: -0.25rem;
+}
+[dir="ltr"] .ui-sports-menu-head__controls[data-v-52fb390b] {
+  margin-right: -0.25rem;
+}
+[dir="rtl"] .ui-sports-menu-head__controls[data-v-52fb390b] {
+  margin-left: -0.25rem;
+}
+.ui-sports-menu-head__content[data-v-52fb390b] {
+  flex-grow: 1;
+  min-width: 0;
+}
+.ui-sports-menu-head--theme-default .ui-sports-menu-head__row[data-v-52fb390b] {
+  --hsl-bg: var(--gray-30-bg);
+  --hsl-clr: var(--gray-30-clr);
+  --hsl-clr-accent: var(--gray-30-clr-accent);
+  --hsl-clr-decent: var(--gray-30-clr-decent);
+  --hsl-clr-strong: var(--gray-30-clr-strong);
+  --hsl-clr-strong-alt: var(--gray-30-clr-strong-alt);
+  --hsl-clr-primary: var(--gray-30-clr-primary);
+  --hsl-clr-good: var(--gray-30-clr-good);
+  --hsl-clr-bad: var(--gray-30-clr-bad);
+  --hsl-sep: var(--gray-30-sep);
+  --hsl-sep-alt: var(--gray-30-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir]
+  .ui-sports-menu-head--theme-default
+  .ui-sports-menu-head__row[data-v-52fb390b] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.ui-sports-menu-head--theme-gray-30 .ui-sports-menu-head__row[data-v-52fb390b] {
+  --hsl-bg: var(--gray-30-bg);
+  --hsl-clr: var(--gray-30-clr);
+  --hsl-clr-accent: var(--gray-30-clr-accent);
+  --hsl-clr-decent: var(--gray-30-clr-decent);
+  --hsl-clr-strong: var(--gray-30-clr-strong);
+  --hsl-clr-strong-alt: var(--gray-30-clr-strong-alt);
+  --hsl-clr-primary: var(--gray-30-clr-primary);
+  --hsl-clr-good: var(--gray-30-clr-good);
+  --hsl-clr-bad: var(--gray-30-clr-bad);
+  --hsl-sep: var(--gray-30-sep);
+  --hsl-sep-alt: var(--gray-30-sep-alt);
+  color: Hsla(var(--hsl-clr-strong), 1);
+}
+[dir]
+  .ui-sports-menu-head--theme-gray-30
+  .ui-sports-menu-head__row[data-v-52fb390b] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.ui-sports-menu-head--theme-gray-60 .ui-sports-menu-head__row[data-v-52fb390b] {
+  --hsl-bg: var(--gray-60-bg);
+  --hsl-clr: var(--gray-60-clr);
+  --hsl-clr-accent: var(--gray-60-clr-accent);
+  --hsl-clr-decent: var(--gray-60-clr-decent);
+  --hsl-clr-strong: var(--gray-60-clr-strong);
+  --hsl-clr-strong-alt: var(--gray-60-clr-strong-alt);
+  --hsl-clr-primary: var(--gray-60-clr-primary);
+  --hsl-clr-good: var(--gray-60-clr-good);
+  --hsl-clr-bad: var(--gray-60-clr-bad);
+  --hsl-sep: var(--gray-60-sep);
+  --hsl-sep-alt: var(--gray-60-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir]
+  .ui-sports-menu-head--theme-gray-60
+  .ui-sports-menu-head__row[data-v-52fb390b] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.ui-sports-menu-head--theme-primary--20
+  .ui-sports-menu-head__row[data-v-52fb390b] {
+  --hsl-bg: var(--primary--20-bg);
+  --hsl-clr: var(--primary--20-clr);
+  --hsl-clr-accent: var(--primary--20-clr-accent);
+  --hsl-clr-decent: var(--primary--20-clr-decent);
+  --hsl-clr-strong: var(--primary--20-clr-strong);
+  --hsl-clr-strong-alt: var(--primary--20-clr-strong-alt);
+  --hsl-clr-primary: var(--primary--20-clr-primary);
+  --hsl-clr-good: var(--primary--20-clr-good);
+  --hsl-clr-bad: var(--primary--20-clr-bad);
+  --hsl-sep: var(--primary--20-sep);
+  --hsl-sep-alt: var(--primary--20-sep-alt);
+  color: Hsla(var(--hsl-clr), 0.8);
+}
+[dir]
+  .ui-sports-menu-head--theme-primary--20
+  .ui-sports-menu-head__row[data-v-52fb390b] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.ui-sports-menu-head--theme-primary--40
+  .ui-sports-menu-head__row[data-v-52fb390b] {
+  --hsl-bg: var(--primary--40-bg);
+  --hsl-clr: var(--primary--40-clr);
+  --hsl-clr-accent: var(--primary--40-clr-accent);
+  --hsl-clr-decent: var(--primary--40-clr-decent);
+  --hsl-clr-strong: var(--primary--40-clr-strong);
+  --hsl-clr-strong-alt: var(--primary--40-clr-strong-alt);
+  --hsl-clr-primary: var(--primary--40-clr-primary);
+  --hsl-clr-good: var(--primary--40-clr-good);
+  --hsl-clr-bad: var(--primary--40-clr-bad);
+  --hsl-sep: var(--primary--40-sep);
+  --hsl-sep-alt: var(--primary--40-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir]
+  .ui-sports-menu-head--theme-primary--40
+  .ui-sports-menu-head__row[data-v-52fb390b] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.ui-sports-menu-section-name[data-v-77c3649b] {
+  display: flex;
+}
+[dir="ltr"] .ui-sports-menu-section-name__label[data-v-77c3649b] {
+  margin-left: var(--sports-menu-section-name-label-margin, none);
+}
+[dir="rtl"] .ui-sports-menu-section-name__label[data-v-77c3649b] {
+  margin-right: var(--sports-menu-section-name-label-margin, none);
+}
+[dir="ltr"]
+  .ui-sports-menu-section-name__count[data-v-77c3649b]:nth-child(n + 2),
+[dir="ltr"]
+  .ui-sports-menu-section-name__label[data-v-77c3649b]:nth-child(n + 2) {
+  margin-left: 0.25rem;
+}
+[dir="rtl"]
+  .ui-sports-menu-section-name__count[data-v-77c3649b]:nth-child(n + 2),
+[dir="rtl"]
+  .ui-sports-menu-section-name__label[data-v-77c3649b]:nth-child(n + 2) {
+  margin-right: 0.25rem;
+}

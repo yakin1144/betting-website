@@ -1,0 +1,159 @@
+.language-settings-dropdown-loader-stub[data-v-a9a90091] {
+  min-width: 17.5rem;
+}
+[dir] .language-settings-dropdown-loader-stub[data-v-a9a90091] {
+  border-radius: inherit;
+  padding: 0.25rem;
+}
+.language-settings-dropdown-loader-stub__item[data-v-a9a90091] {
+  min-height: 1.375rem;
+}
+[dir] .language-settings-dropdown-loader-stub__item[data-v-a9a90091] {
+  background-color: currentColor;
+  border-radius: var(--border-radius);
+}
+[dir]
+  .language-settings-dropdown-loader-stub__item[data-v-a9a90091]:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+.language-settings-dropdown__content[data-v-ff6e1575] {
+  min-width: 17.5rem;
+}
+[dir] .language-settings-dropdown__search[data-v-ff6e1575] {
+  margin: 0.25rem;
+}
+[dir="ltr"] .language-settings-dropdown__icon[data-v-ff6e1575] {
+  margin-right: 0.5rem;
+}
+[dir="rtl"] .language-settings-dropdown__icon[data-v-ff6e1575] {
+  margin-left: 0.5rem;
+}
+[dir="ltr"] .language-settings-dropdown__lang[data-v-ff6e1575] {
+  margin-right: 0.25rem;
+}
+[dir="rtl"] .language-settings-dropdown__lang[data-v-ff6e1575] {
+  margin-left: 0.25rem;
+}
+[dir] .language-settings-dropdown__scroll[data-v-ff6e1575] {
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+[dir] .language-settings-dropdown__scroll[data-v-ff6e1575]:first-child {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+.language-settings-dropdown__btn[data-v-ff6e1575] {
+  --hsl-bg: var(--primary--40-bg);
+  --hsl-clr: var(--primary--40-clr);
+  --hsl-clr-accent: var(--primary--40-clr-accent);
+  --hsl-clr-decent: var(--primary--40-clr-decent);
+  --hsl-clr-strong: var(--primary--40-clr-strong);
+  --hsl-clr-strong-alt: var(--primary--40-clr-strong-alt);
+  --hsl-clr-primary: var(--primary--40-clr-primary);
+  --hsl-clr-good: var(--primary--40-clr-good);
+  --hsl-clr-bad: var(--primary--40-clr-bad);
+  --hsl-sep: var(--primary--40-sep);
+  --hsl-sep-alt: var(--primary--40-sep-alt);
+  align-items: center;
+  color: Hsla(var(--hsl-clr), 1);
+  display: flex;
+  height: 2.5rem;
+  justify-content: center;
+}
+[dir] .language-settings-dropdown__btn[data-v-ff6e1575] {
+  background-color: Hsla(var(--hsl-bg), 1);
+  border: 1px solid hsl(var(--hsl-sep-alt));
+  border-radius: inherit;
+  padding: 0.5rem 0.75rem;
+}
+.language-settings-dropdown__btn--is-open[data-v-ff6e1575],
+.language-settings-dropdown__btn[data-v-ff6e1575]:hover {
+  --hsl-bg: var(--primary--20-bg);
+  --hsl-clr: var(--primary--20-clr);
+  --hsl-clr-accent: var(--primary--20-clr-accent);
+  --hsl-clr-decent: var(--primary--20-clr-decent);
+  --hsl-clr-strong: var(--primary--20-clr-strong);
+  --hsl-clr-strong-alt: var(--primary--20-clr-strong-alt);
+  --hsl-clr-primary: var(--primary--20-clr-primary);
+  --hsl-clr-good: var(--primary--20-clr-good);
+  --hsl-clr-bad: var(--primary--20-clr-bad);
+  --hsl-sep: var(--primary--20-sep);
+  --hsl-sep-alt: var(--primary--20-sep-alt);
+}
+[dir] .language-settings-dropdown__btn--is-open[data-v-ff6e1575],
+[dir] .language-settings-dropdown__btn[data-v-ff6e1575]:hover {
+  border-color: Hsl(var(--hsl-bg));
+}
+.language-settings-dropdown__angle[data-v-ff6e1575] {
+  --hsl-bg: var(--primary--40-bg);
+  --hsl-clr: var(--primary--40-clr);
+  --hsl-clr-accent: var(--primary--40-clr-accent);
+  --hsl-clr-decent: var(--primary--40-clr-decent);
+  --hsl-clr-strong: var(--primary--40-clr-strong);
+  --hsl-clr-strong-alt: var(--primary--40-clr-strong-alt);
+  --hsl-clr-primary: var(--primary--40-clr-primary);
+  --hsl-clr-good: var(--primary--40-clr-good);
+  --hsl-clr-bad: var(--primary--40-clr-bad);
+  --hsl-sep: var(--primary--40-sep);
+  --hsl-sep-alt: var(--primary--40-sep-alt);
+}
+[dir] .language-settings-dropdown__angle[data-v-ff6e1575] {
+  transition: transform 0.2s ease;
+}
+.language-settings-dropdown__btn:not(.language-settings-dropdown__btn--is-open)
+  .language-settings-dropdown__angle[data-v-ff6e1575] {
+  color: Hsl(var(--hsl-clr-strong));
+}
+.language-settings-dropdown__btn--is-open
+  .language-settings-dropdown__angle[data-v-ff6e1575] {
+  color: Hsl(var(--hsl-clr));
+}
+[dir="ltr"]
+  .language-settings-dropdown__btn--is-open
+  .language-settings-dropdown__angle[data-v-ff6e1575] {
+  transform: rotate(180deg);
+}
+[dir="rtl"]
+  .language-settings-dropdown__btn--is-open
+  .language-settings-dropdown__angle[data-v-ff6e1575] {
+  transform: rotate(-180deg);
+}
+.language-settings-dropdown-option__content[data-v-ff6e1575] {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+.language-settings-dropdown-option__country-code[data-v-ff6e1575],
+.language-settings-dropdown-option__ico[data-v-ff6e1575] {
+  flex-shrink: 0;
+}
+.language-settings-dropdown-option__ico[data-v-ff6e1575] {
+  font-size: 1.0625rem;
+  width: 1.0625rem;
+}
+[dir] .language-settings-dropdown-option__ico[data-v-ff6e1575] {
+  box-shadow: 0 0 0 1px Hsl(var(--hsl-sep-alt));
+}
+.language-settings-dropdown-option__country-code[data-v-ff6e1575] {
+  min-width: 1.25rem;
+}
+[dir] .language-settings-dropdown-option__country-code[data-v-ff6e1575] {
+  text-align: center;
+}
+.language-settings-dropdown__scroll[data-v-ff6e1575] {
+  max-height: calc(100vh - var(--header-height) / var(--fz) * 1rem - 6.25rem);
+}
+[dir] .language-settings-dropdown__scroll[data-v-ff6e1575] {
+  border-top: 1px solid hsl(var(--hsl-sep-alt));
+}
+[dir] .language-settings-dropdown__option[data-v-ff6e1575] {
+  border-radius: inherit;
+}
+[dir="ltr"] .language-settings-dropdown-option__title[data-v-ff6e1575] {
+  border-left: 1px solid hsl(var(--hsl-sep-alt));
+  padding-left: 0.5rem;
+}
+[dir="rtl"] .language-settings-dropdown-option__title[data-v-ff6e1575] {
+  border-right: 1px solid hsl(var(--hsl-sep-alt));
+  padding-right: 0.5rem;
+}

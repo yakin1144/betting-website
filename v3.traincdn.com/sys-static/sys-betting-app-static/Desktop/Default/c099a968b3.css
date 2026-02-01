@@ -1,0 +1,10 @@
+[dir] .sports-menu[data-v-525c4530] > :first-child,
+[dir] .sports-menu__content[data-v-525c4530],
+[dir] .sports-menu__tabs[data-v-525c4530] {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+[dir] .sports-menu[data-v-525c4530] > :last-child {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}

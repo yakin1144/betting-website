@@ -1,0 +1,26 @@
+.footer-dmca__img--size-m[data-v-0fce6a66] {
+  max-height: 1.25rem;
+  max-width: 6.3125rem;
+}
+.footer-payments-group__list[data-v-e8202706] {
+  flex-wrap: wrap;
+}
+.footer-payments-group__item[data-v-e8202706],
+.footer-payments-group__list[data-v-e8202706] {
+  display: flex;
+  justify-content: center;
+}
+.is-keyboard-user .footer-payments-group__link[data-v-e8202706]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+[dir] .footer-payments-group__logo[data-v-e8202706] {
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-payments-group__list[data-v-e8202706] {
+  gap: 0.75rem 2rem;
+}
+.footer-payments-group__logo[data-v-e8202706] {
+  height: 2.3125rem;
+}

@@ -1,0 +1,15 @@
+.footer-cookie__link[data-v-9e730e28] {
+  text-decoration: underline;
+}
+.footer-cookie__link[data-v-9e730e28]:hover {
+  text-decoration: none;
+}
+.is-keyboard-user .footer-cookie__link[data-v-9e730e28]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+.footer-cookie__link[data-v-9e730e28] {
+  color: Hsl(var(--custom-footer-cookie-link, var(--hsl-clr)));
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+}

@@ -1,0 +1,8 @@
+.betting-content[data-v-cd292d8b] {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--betting-content-inner-indent, 0.5rem);
+}
+.betting-content__main[data-v-cd292d8b] {
+  flex-grow: 0;
+}

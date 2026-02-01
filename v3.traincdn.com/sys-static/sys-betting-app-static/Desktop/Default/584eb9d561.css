@@ -1,0 +1,20 @@
+.favorite-empty__ico[data-v-c487c432] {
+  color: Hsl(var(--custom-favorite-star, var(--gray-100-clr-accent)));
+  display: inline-flex;
+}
+[dir] .favorites-button__toggle[data-v-8a6792ad] {
+  border-radius: var(--border-radius);
+}
+[dir] .favorites-button__toggle--is-opened[data-v-8a6792ad] {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+[dir] .favorites-app__container[data-v-a1f91a41] {
+  border-radius: var(--border-radius);
+}
+[dir] .favorites-app__container[data-v-a1f91a41] > :last-child,
+[dir] .favorites-app__empty[data-v-a1f91a41],
+[dir] .favorites-app__list[data-v-a1f91a41] {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}

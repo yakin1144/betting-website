@@ -1,0 +1,53 @@
+.ui-toggle-favorite-button[data-v-c1425afd] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+[dir]
+  .ui-toggle-favorite-button[data-v-c1425afd]:not(.ui-toggle-favorite-button--narrow) {
+  padding: 0.25rem;
+}
+.is-keyboard-user .ui-toggle-favorite-button[data-v-c1425afd]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+.ui-toggle-favorite-button__ico[data-v-c1425afd] {
+  stroke: currentColor;
+  fill-opacity: 0;
+  stroke-width: 40;
+}
+[dir] .ui-toggle-favorite-button__ico[data-v-c1425afd] {
+  transition: fill-opacity 0.2s;
+}
+.ui-toggle-favorite-button--size-xs
+  .ui-toggle-favorite-button__ico[data-v-c1425afd] {
+  font-size: 0.625rem;
+}
+.ui-toggle-favorite-button--size-s
+  .ui-toggle-favorite-button__ico[data-v-c1425afd] {
+  font-size: 0.75rem;
+}
+.ui-toggle-favorite-button--size-m
+  .ui-toggle-favorite-button__ico[data-v-c1425afd] {
+  font-size: 0.875rem;
+}
+.ui-toggle-favorite-button--size-l
+  .ui-toggle-favorite-button__ico[data-v-c1425afd] {
+  font-size: 1rem;
+}
+.ui-toggle-favorite-button--size-xl
+  .ui-toggle-favorite-button__ico[data-v-c1425afd] {
+  font-size: 1.375rem;
+}
+.ui-toggle-favorite-button:hover
+  .ui-toggle-favorite-button__ico[data-v-c1425afd] {
+  fill-opacity: 0.2;
+}
+.ui-toggle-favorite-button--is-active
+  .ui-toggle-favorite-button__ico[data-v-c1425afd] {
+  fill-opacity: 1;
+}
+.ui-toggle-favorite-button--is-active:hover
+  .ui-toggle-favorite-button__ico[data-v-c1425afd] {
+  fill-opacity: 0.8;
+}

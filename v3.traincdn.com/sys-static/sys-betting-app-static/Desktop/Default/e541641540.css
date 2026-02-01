@@ -1,0 +1,14 @@
+[dir="ltr"] .games-search-app-search__button[data-v-bf4e984a] {
+  border-bottom-right-radius: inherit;
+  border-top-right-radius: inherit;
+}
+[dir="rtl"] .games-search-app-search__button[data-v-bf4e984a] {
+  border-bottom-left-radius: inherit;
+  border-top-left-radius: inherit;
+}
+.games-search-app[data-v-bf4e984a] .games-search-app__dropdown {
+  z-index: 300;
+}
+.games-search-app__search[data-v-bf4e984a] {
+  width: 10.6875rem;
+}

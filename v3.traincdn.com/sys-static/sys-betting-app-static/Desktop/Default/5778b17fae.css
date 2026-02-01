@@ -1,0 +1,140 @@
+.ui-team-icons[data-v-65560353] {
+  display: flex;
+  flex-shrink: 0;
+}
+.ui-team-icons__item[data-v-65560353] {
+  position: relative;
+}
+[dir="ltr"] .ui-team-icons__item[data-v-65560353]:nth-child(n + 2) {
+  margin-left: -0.25rem;
+}
+[dir="rtl"] .ui-team-icons__item[data-v-65560353]:nth-child(n + 2) {
+  margin-right: -0.25rem;
+}
+.ui-team-icons__item[data-v-65560353]:before {
+  bottom: -1px;
+  content: "";
+  position: absolute;
+  top: -1px;
+}
+[dir] .ui-team-icons__item[data-v-65560353]:before {
+  border-radius: 50%;
+  left: -1px;
+  right: -1px;
+}
+.ui-team-icons__ico[data-v-65560353] {
+  position: relative;
+}
+[dir] .ui-team-icons__ico[data-v-65560353] {
+  border-radius: 50%;
+}
+.ui-team-icons-plus[data-v-65560353] {
+  line-height: 0;
+}
+.ui-team-icons-plus__content[data-v-65560353] {
+  display: inline-block;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  min-height: 1rem;
+  min-width: 1rem;
+  position: relative;
+}
+[dir] .ui-team-icons-plus__content[data-v-65560353] {
+  border-radius: 50%;
+  padding: 2px;
+}
+.ui-team-icons--theme-gray-30 .ui-team-icons__ico[data-v-65560353] {
+  --hsl-bg: var(--gray-30-bg);
+  --hsl-clr: var(--gray-30-clr);
+  --hsl-clr-accent: var(--gray-30-clr-accent);
+  --hsl-clr-decent: var(--gray-30-clr-decent);
+  --hsl-clr-strong: var(--gray-30-clr-strong);
+  --hsl-clr-strong-alt: var(--gray-30-clr-strong-alt);
+  --hsl-clr-primary: var(--gray-30-clr-primary);
+  --hsl-clr-good: var(--gray-30-clr-good);
+  --hsl-clr-bad: var(--gray-30-clr-bad);
+  --hsl-sep: var(--gray-30-sep);
+  --hsl-sep-alt: var(--gray-30-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir] .ui-team-icons--theme-gray-30 .ui-team-icons__ico[data-v-65560353] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+[dir]
+  .ui-team-icons--theme-gray-30
+  .ui-team-icons__item[data-v-65560353]:before {
+  background-color: Hsl(var(--hsl-bg));
+}
+.ui-team-icons--theme-gray-30 .ui-team-icons-plus__content[data-v-65560353] {
+  --hsl-bg: var(--gray-30-bg);
+  --hsl-clr: var(--gray-30-clr);
+  --hsl-clr-accent: var(--gray-30-clr-accent);
+  --hsl-clr-decent: var(--gray-30-clr-decent);
+  --hsl-clr-strong: var(--gray-30-clr-strong);
+  --hsl-clr-strong-alt: var(--gray-30-clr-strong-alt);
+  --hsl-clr-primary: var(--gray-30-clr-primary);
+  --hsl-clr-good: var(--gray-30-clr-good);
+  --hsl-clr-bad: var(--gray-30-clr-bad);
+  --hsl-sep: var(--gray-30-sep);
+  --hsl-sep-alt: var(--gray-30-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir]
+  .ui-team-icons--theme-gray-30
+  .ui-team-icons-plus__content[data-v-65560353] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.ui-team-icons--theme-primary .ui-team-icons__ico[data-v-65560353] {
+  --hsl-bg: var(--primary-0-bg);
+  --hsl-clr: var(--primary-0-clr);
+  --hsl-clr-accent: var(--primary-0-clr-accent);
+  --hsl-clr-decent: var(--primary-0-clr-decent);
+  --hsl-clr-strong: var(--primary-0-clr-strong);
+  --hsl-clr-strong-alt: var(--primary-0-clr-strong-alt);
+  --hsl-clr-primary: var(--primary-0-clr-primary);
+  --hsl-clr-good: var(--primary-0-clr-good);
+  --hsl-clr-bad: var(--primary-0-clr-bad);
+  --hsl-sep: var(--primary-0-sep);
+  --hsl-sep-alt: var(--primary-0-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir] .ui-team-icons--theme-primary .ui-team-icons__ico[data-v-65560353] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+[dir]
+  .ui-team-icons--theme-primary
+  .ui-team-icons__item[data-v-65560353]:before {
+  background-color: Hsl(var(--hsl-bg));
+}
+.ui-team-icons--theme-primary .ui-team-icons-plus__content[data-v-65560353] {
+  --hsl-bg: var(--primary-0-bg);
+  --hsl-clr: var(--primary-0-clr);
+  --hsl-clr-accent: var(--primary-0-clr-accent);
+  --hsl-clr-decent: var(--primary-0-clr-decent);
+  --hsl-clr-strong: var(--primary-0-clr-strong);
+  --hsl-clr-strong-alt: var(--primary-0-clr-strong-alt);
+  --hsl-clr-primary: var(--primary-0-clr-primary);
+  --hsl-clr-good: var(--primary-0-clr-good);
+  --hsl-clr-bad: var(--primary-0-clr-bad);
+  --hsl-sep: var(--primary-0-sep);
+  --hsl-sep-alt: var(--primary-0-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir]
+  .ui-team-icons--theme-primary
+  .ui-team-icons-plus__content[data-v-65560353] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+[dir] .ui-team-icons--theme-default .ui-team-icons__ico[data-v-65560353] {
+  background-color: Hsl(var(--hsl-bg));
+}
+[dir]
+  .ui-team-icons--theme-default
+  .ui-team-icons__item[data-v-65560353]:before {
+  background-color: Hsl(var(--hsl-sep));
+}
+[dir]
+  .ui-team-icons--theme-default
+  .ui-team-icons-plus__content[data-v-65560353] {
+  background-color: Hsl(var(--hsl-bg));
+}

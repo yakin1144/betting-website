@@ -1,0 +1,12 @@
+[dir] .ui-sports-menu[data-v-761c3cd4] > :last-child {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+[dir] .sports-menu-main-loading[data-v-ac2d441d],
+[dir] .sports-menu-main-loading__tabs[data-v-ac2d441d] {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.sports-menu-main-loading__tabs[data-v-ac2d441d] {
+  height: 2rem;
+}

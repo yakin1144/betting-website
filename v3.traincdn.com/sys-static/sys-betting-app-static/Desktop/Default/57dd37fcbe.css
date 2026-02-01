@@ -1,0 +1,58 @@
+.coupon-bet-builder-bets__item[data-v-4de7dfb4] {
+  display: grid;
+}
+[dir] .coupon-bet-builder-bets__item[data-v-4de7dfb4]:nth-child(n + 2) {
+  margin-top: 0.5rem;
+}
+.coupon-bet-builder-bets__bet[data-v-4de7dfb4],
+.coupon-bet-builder-bets__lock[data-v-4de7dfb4] {
+  grid-area: 1/-1;
+}
+.coupon-bet-builder-bets__bet[data-v-4de7dfb4] {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.coupon-bet-builder-bets__remove[data-v-4de7dfb4] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+[dir="ltr"] .coupon-bet-builder-bets__remove[data-v-4de7dfb4] {
+  margin-left: 0.25rem;
+}
+[dir="rtl"] .coupon-bet-builder-bets__remove[data-v-4de7dfb4] {
+  margin-right: 0.25rem;
+}
+.coupon-bet-builder-bets__remove[data-v-4de7dfb4]:not(.coupon-bet-builder-bets__remove--lock) {
+  flex-shrink: 0;
+}
+.is-keyboard-user .coupon-bet-builder-bets__remove[data-v-4de7dfb4]:focus {
+  outline: 1px solid Hsl(var(--focus));
+  outline-offset: -1px;
+}
+[dir] .coupon-bet-builder-bets__lock[data-v-4de7dfb4] {
+  margin-left: -0.4375rem;
+  margin-right: -0.4375rem;
+}
+[dir] .coupon-bet-builder-bets__remove[data-v-4de7dfb4] {
+  padding: 2px 0.25rem;
+}
+[dir="ltr"] .coupon-bet-builder-bets__remove[data-v-4de7dfb4] {
+  margin-right: -0.25rem;
+}
+[dir="rtl"] .coupon-bet-builder-bets__remove[data-v-4de7dfb4] {
+  margin-left: -0.25rem;
+}
+.coupon-bet-builder-bets__remove[data-v-4de7dfb4]:not(.coupon-bet-builder-bets__remove--lock):not(.coupon-bet-builder-bets__remove:not(.coupon-bet-builder-bets__remove--lock):hover) {
+  color: var(--coupon-bet-remove);
+}
+.coupon-bet-builder-bets__remove[data-v-4de7dfb4]:not(.coupon-bet-builder-bets__remove--lock):hover {
+  color: var(--coupon-bet-remove-hover);
+}
+.coupon-bet-builder-bets__remove--lock[data-v-4de7dfb4]:not(.coupon-bet-builder-bets__remove--lock:hover) {
+  color: var(--coupon-bet-lock-remove);
+}
+.coupon-bet-builder-bets__remove--lock[data-v-4de7dfb4]:hover {
+  color: var(--coupon-bet-lock-remove-hover);
+}

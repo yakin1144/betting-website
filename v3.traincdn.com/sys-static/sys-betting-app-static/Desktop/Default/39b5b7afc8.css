@@ -1,0 +1,104 @@
+.betting-left-aside-template--is-compact.betting-left-aside-template--is-shown[data-v-3fa7061f] {
+  z-index: 1000;
+}
+.betting-left-aside-template--theme-primary--40[data-v-3fa7061f] {
+  --hsl-bg: var(--primary--40-bg);
+  --hsl-clr: var(--primary--40-clr);
+  --hsl-clr-accent: var(--primary--40-clr-accent);
+  --hsl-clr-decent: var(--primary--40-clr-decent);
+  --hsl-clr-strong: var(--primary--40-clr-strong);
+  --hsl-clr-strong-alt: var(--primary--40-clr-strong-alt);
+  --hsl-clr-primary: var(--primary--40-clr-primary);
+  --hsl-clr-good: var(--primary--40-clr-good);
+  --hsl-clr-bad: var(--primary--40-clr-bad);
+  --hsl-sep: var(--primary--40-sep);
+  --hsl-sep-alt: var(--primary--40-sep-alt);
+}
+[dir="ltr"]
+  .betting-left-aside-template--theme-primary--40.betting-left-aside-template--is-compact[data-v-3fa7061f] {
+  background-image: linear-gradient(
+    to left,
+    Hsla(var(--custom-common-bg, var(--hsl-bg)), 0.5) 0.25rem,
+    Hsl(var(--custom-common-bg, var(--hsl-bg))) 0.25rem
+  );
+}
+[dir="rtl"]
+  .betting-left-aside-template--theme-primary--40.betting-left-aside-template--is-compact[data-v-3fa7061f] {
+  background-image: linear-gradient(
+    to right,
+    Hsla(var(--custom-common-bg, var(--hsl-bg)), 0.5) 0.25rem,
+    Hsl(var(--custom-common-bg, var(--hsl-bg))) 0.25rem
+  );
+}
+@-moz-document url-prefix() {
+  [dir="ltr"]
+    .betting-left-aside-template--theme-primary--40.betting-left-aside-template--is-compact[data-v-3fa7061f] {
+    background-image: linear-gradient(
+      to left,
+      Hsla(var(--custom-common-bg, var(--hsl-bg)), 0.5) 0.5rem,
+      Hsl(var(--custom-common-bg, var(--hsl-bg))) 0.5rem
+    );
+  }
+  [dir="rtl"]
+    .betting-left-aside-template--theme-primary--40.betting-left-aside-template--is-compact[data-v-3fa7061f] {
+    background-image: linear-gradient(
+      to right,
+      Hsla(var(--custom-common-bg, var(--hsl-bg)), 0.5) 0.5rem,
+      Hsl(var(--custom-common-bg, var(--hsl-bg))) 0.5rem
+    );
+  }
+  [dir="ltr"]
+    .betting-left-aside-template--theme-primary--40.betting-left-aside-template--is-compact[data-v-3fa7061f]:hover {
+    box-shadow: -1.125rem 0 0 0.625rem
+        Hsl(var(--custom-common-bg, var(--hsl-bg))),
+      -0.625rem 0 0 0.625rem Hsla(var(--custom-common-bg, var(--hsl-bg)), 0.4),
+      0.3125rem 0 1.125rem 0.3125rem #0000003b;
+  }
+  [dir="rtl"]
+    .betting-left-aside-template--theme-primary--40.betting-left-aside-template--is-compact[data-v-3fa7061f]:hover {
+    box-shadow: 1.125rem 0 0 0.625rem
+        Hsl(var(--custom-common-bg, var(--hsl-bg))),
+      0.625rem 0 0 0.625rem Hsla(var(--custom-common-bg, var(--hsl-bg)), 0.4),
+      -0.3125rem 0 1.125rem 0.3125rem #0000003b;
+  }
+}
+[dir="ltr"]
+  .betting-left-aside-template--theme-primary--40.betting-left-aside-template--is-compact.betting-left-aside-template--is-shown[data-v-3fa7061f] {
+  box-shadow: -0.9375rem 0 0 0.625rem
+      Hsl(var(--custom-common-bg, var(--hsl-bg))),
+    -0.625rem 0 0 0.625rem Hsla(var(--custom-common-bg, var(--hsl-bg)), 0.7),
+    0.3125rem 0 1.125rem 0.3125rem #0000003b;
+}
+[dir="rtl"]
+  .betting-left-aside-template--theme-primary--40.betting-left-aside-template--is-compact.betting-left-aside-template--is-shown[data-v-3fa7061f] {
+  box-shadow: 0.9375rem 0 0 0.625rem Hsl(var(--custom-common-bg, var(--hsl-bg))),
+    0.625rem 0 0 0.625rem Hsla(var(--custom-common-bg, var(--hsl-bg)), 0.7),
+    -0.3125rem 0 1.125rem 0.3125rem #0000003b;
+}
+.betting-left-aside-template--theme-primary--20.betting-left-aside-template--is-compact.betting-left-aside-template--is-shown[data-v-3fa7061f] {
+  --hsl-bg: var(--primary--20-bg);
+  --hsl-clr: var(--primary--20-clr);
+  --hsl-clr-accent: var(--primary--20-clr-accent);
+  --hsl-clr-decent: var(--primary--20-clr-decent);
+  --hsl-clr-strong: var(--primary--20-clr-strong);
+  --hsl-clr-strong-alt: var(--primary--20-clr-strong-alt);
+  --hsl-clr-primary: var(--primary--20-clr-primary);
+  --hsl-clr-good: var(--primary--20-clr-good);
+  --hsl-clr-bad: var(--primary--20-clr-bad);
+  --hsl-sep: var(--primary--20-sep);
+  --hsl-sep-alt: var(--primary--20-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir]
+  .betting-left-aside-template--theme-primary--20.betting-left-aside-template--is-compact.betting-left-aside-template--is-shown[data-v-3fa7061f] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.betting-left-aside-template--size-xl.betting-left-aside-template--is-compact.betting-left-aside-template--is-shown[data-v-3fa7061f] {
+  width: 19.0625rem;
+}
+.betting-left-aside-template--size-l.betting-left-aside-template--is-compact.betting-left-aside-template--is-shown[data-v-3fa7061f] {
+  width: 17.75rem;
+}
+.betting-left-aside-template--size-m.betting-left-aside-template--is-compact.betting-left-aside-template--is-shown[data-v-3fa7061f] {
+  width: 15.625rem;
+}

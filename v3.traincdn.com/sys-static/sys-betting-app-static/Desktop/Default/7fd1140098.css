@@ -1,0 +1,84 @@
+[dir] .ui-coupon-block[data-v-e7e52f7d] > :first-child {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.ui-coupon-block-title[data-v-e7e52f7d] {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 0.25rem;
+}
+[dir] .ui-coupon-block-title[data-v-e7e52f7d] {
+  padding: 0.25rem 0.5rem;
+}
+.ui-coupon-block--size-m .ui-coupon-block-title__label[data-v-e7e52f7d],
+.ui-coupon-block--size-m .ui-coupon-block-title__value[data-v-e7e52f7d] {
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+}
+.ui-coupon-block--size-s .ui-coupon-block-title__label[data-v-e7e52f7d],
+.ui-coupon-block--size-s .ui-coupon-block-title__value[data-v-e7e52f7d] {
+  font-size: 0.625rem;
+  line-height: 0.6875rem;
+}
+.ui-coupon-block-title__label[data-v-e7e52f7d] {
+  flex: auto;
+}
+.ui-coupon-block-title__value[data-v-e7e52f7d] {
+  flex: none;
+}
+.ui-coupon-block--theme-gray .ui-coupon-block-title[data-v-e7e52f7d] {
+  --hsl-bg: var(--gray-0-bg);
+  --hsl-clr: var(--gray-0-clr);
+  --hsl-clr-accent: var(--gray-0-clr-accent);
+  --hsl-clr-decent: var(--gray-0-clr-decent);
+  --hsl-clr-strong: var(--gray-0-clr-strong);
+  --hsl-clr-strong-alt: var(--gray-0-clr-strong-alt);
+  --hsl-clr-primary: var(--gray-0-clr-primary);
+  --hsl-clr-good: var(--gray-0-clr-good);
+  --hsl-clr-bad: var(--gray-0-clr-bad);
+  --hsl-sep: var(--gray-0-sep);
+  --hsl-sep-alt: var(--gray-0-sep-alt);
+  color: Hsla(var(--hsl-clr-strong), 1);
+}
+[dir] .ui-coupon-block--theme-gray .ui-coupon-block-title[data-v-e7e52f7d] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.ui-coupon-block--theme-cyber--45 .ui-coupon-block-title[data-v-e7e52f7d] {
+  --hsl-bg: var(--cyber--45-bg);
+  --hsl-clr: var(--cyber--45-clr);
+  --hsl-clr-accent: var(--cyber--45-clr-accent);
+  --hsl-clr-decent: var(--cyber--45-clr-decent);
+  --hsl-clr-strong: var(--cyber--45-clr-strong);
+  --hsl-clr-strong-alt: var(--cyber--45-clr-strong-alt);
+  --hsl-clr-primary: var(--cyber--45-clr-primary);
+  --hsl-clr-good: var(--cyber--45-clr-good);
+  --hsl-clr-bad: var(--cyber--45-clr-bad);
+  --hsl-sep: var(--cyber--45-sep);
+  --hsl-sep-alt: var(--cyber--45-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir]
+  .ui-coupon-block--theme-cyber--45
+  .ui-coupon-block-title[data-v-e7e52f7d] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}
+.ui-coupon-block--theme-special-primary-65
+  .ui-coupon-block-title[data-v-e7e52f7d] {
+  --hsl-bg: var(--specialPrimary-65-bg);
+  --hsl-clr: var(--specialPrimary-65-clr);
+  --hsl-clr-accent: var(--specialPrimary-65-clr-accent);
+  --hsl-clr-decent: var(--specialPrimary-65-clr-decent);
+  --hsl-clr-strong: var(--specialPrimary-65-clr-strong);
+  --hsl-clr-strong-alt: var(--specialPrimary-65-clr-strong-alt);
+  --hsl-clr-primary: var(--specialPrimary-65-clr-primary);
+  --hsl-clr-good: var(--specialPrimary-65-clr-good);
+  --hsl-clr-bad: var(--specialPrimary-65-clr-bad);
+  --hsl-sep: var(--specialPrimary-65-sep);
+  --hsl-sep-alt: var(--specialPrimary-65-sep-alt);
+  color: Hsla(var(--hsl-clr), 1);
+}
+[dir]
+  .ui-coupon-block--theme-special-primary-65
+  .ui-coupon-block-title[data-v-e7e52f7d] {
+  background-color: Hsla(var(--hsl-bg), 1);
+}

@@ -1,0 +1,74 @@
+[dir] .ui-sports-menu-loader--is-compact[data-v-46299fda] {
+  border-radius: var(--border-radius);
+}
+[dir]
+  .ui-sports-menu-loader:not(.ui-sports-menu-loader--is-compact)
+  .ui-sports-menu-loader__skeleton[data-v-46299fda] {
+  padding: 0.5rem;
+}
+[dir]
+  .ui-sports-menu-loader--is-compact
+  .ui-sports-menu-loader__skeleton[data-v-46299fda] {
+  padding: 0.5rem 0.25rem;
+}
+[dir] .ui-sports-menu-loader__skeleton[data-v-46299fda]:first-child {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+[dir] .ui-sports-menu-loader__skeleton[data-v-46299fda]:last-child {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+.ui-sports-menu-loader__item[data-v-46299fda] {
+  display: flex;
+}
+.ui-sports-menu-loader:not(.ui-sports-menu-loader--is-compact)
+  .ui-sports-menu-loader__item[data-v-46299fda] {
+  justify-content: space-between;
+}
+.ui-sports-menu-loader--is-compact
+  .ui-sports-menu-loader__item[data-v-46299fda] {
+  justify-content: center;
+}
+[dir] .ui-sports-menu-loader__item[data-v-46299fda]:not(:last-child) {
+  margin-bottom: 1rem;
+}
+[dir] .ui-sports-menu-loader__arrow[data-v-46299fda],
+[dir] .ui-sports-menu-loader__ico[data-v-46299fda],
+[dir] .ui-sports-menu-loader__name[data-v-46299fda] {
+  background-color: currentColor;
+}
+.ui-sports-menu-loader__arrow[data-v-46299fda],
+.ui-sports-menu-loader__name[data-v-46299fda] {
+  min-height: 0.75rem;
+}
+[dir] .ui-sports-menu-loader__arrow[data-v-46299fda],
+[dir] .ui-sports-menu-loader__name[data-v-46299fda] {
+  border-radius: var(--border-radius);
+}
+.ui-sports-menu-loader__ico[data-v-46299fda] {
+  flex-shrink: 0;
+  height: 1rem;
+  width: 1rem;
+}
+[dir] .ui-sports-menu-loader__ico[data-v-46299fda] {
+  border-radius: 50%;
+}
+.ui-sports-menu-loader__name[data-v-46299fda] {
+  flex-basis: 10.625rem;
+}
+[dir="ltr"] .ui-sports-menu-loader__name[data-v-46299fda] {
+  margin-left: 0.5rem;
+}
+[dir="rtl"] .ui-sports-menu-loader__name[data-v-46299fda] {
+  margin-right: 0.5rem;
+}
+.ui-sports-menu-loader__arrow[data-v-46299fda] {
+  flex-basis: 1.25rem;
+}
+[dir="ltr"] .ui-sports-menu-loader__arrow[data-v-46299fda] {
+  margin-left: 0.75rem;
+}
+[dir="rtl"] .ui-sports-menu-loader__arrow[data-v-46299fda] {
+  margin-right: 0.75rem;
+}

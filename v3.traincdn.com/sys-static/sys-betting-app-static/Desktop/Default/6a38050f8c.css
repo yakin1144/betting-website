@@ -1,0 +1,13 @@
+[dir] .top-events-promo-loader[data-v-029f69fa] {
+  border-radius: var(--border-radius);
+}
+.top-events-promo-loader__content[data-v-029f69fa] {
+  height: 1.5rem;
+}
+[dir] .top-events-promo-loader__content[data-v-029f69fa] {
+  background-color: currentColor;
+  border-radius: inherit;
+}
+[dir] .top-events-promo-loader[data-v-029f69fa] {
+  padding: 1.25rem 1rem;
+}

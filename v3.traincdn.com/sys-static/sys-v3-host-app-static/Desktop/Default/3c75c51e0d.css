@@ -1,0 +1,8 @@
+.balance-currency[data-v-9954b9c6] {
+  -moz-column-gap: 0.3125rem;
+  column-gap: 0.3125rem;
+  display: flex;
+}
+.balance-currency__iso[data-v-9954b9c6] {
+  flex-shrink: 0;
+}

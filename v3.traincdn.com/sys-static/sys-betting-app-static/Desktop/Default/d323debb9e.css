@@ -1,0 +1,22 @@
+.ui-coupon-bet-champ[data-v-9b0e7e50] {
+  align-items: flex-start;
+  color: Hsl(var(--coupon-bet-champ-color, var(--hsl-clr)));
+  display: flex;
+}
+.ui-coupon-bet-champ__ico[data-v-9b0e7e50] {
+  flex-shrink: 0;
+}
+[dir="ltr"] .ui-coupon-bet-champ__ico[data-v-9b0e7e50] {
+  margin-right: 0.25rem;
+}
+[dir="rtl"] .ui-coupon-bet-champ__ico[data-v-9b0e7e50] {
+  margin-left: 0.25rem;
+}
+[xlang="my"] .ui-coupon-bet-champ__ico[data-v-9b0e7e50] {
+  margin-top: 1ex;
+}
+.ui-coupon-bet-champ__caption[data-v-9b0e7e50] {
+  flex-grow: 1;
+  font-size: 0.6875rem;
+  line-height: 0.8125rem;
+}

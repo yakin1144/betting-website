@@ -1,1 +1,0 @@
-import{z as n,A as t,y as o}from"./DhCJHD7i.js";const r={__name:"index",setup(s){return(a,e)=>(o(),n("div",null,[...e[0]||(e[0]=[t("h1",null,"Welcome to Your Betting Website",-1),t("p",null,"This is a Nuxt.js application.",-1)])]))}};export{r as default};

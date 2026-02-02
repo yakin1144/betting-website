@@ -46,7 +46,6 @@ declare global {
   const fromPlainHandler: typeof import('../../node_modules/h3').fromPlainHandler
   const fromWebHandler: typeof import('../../node_modules/h3').fromWebHandler
   const getCookie: typeof import('../../node_modules/h3').getCookie
-  const getDatabaseConnection: typeof import('../../server/utils/database').getDatabaseConnection
   const getHeader: typeof import('../../node_modules/h3').getHeader
   const getHeaders: typeof import('../../node_modules/h3').getHeaders
   const getMethod: typeof import('../../node_modules/h3').getMethod
@@ -112,7 +111,6 @@ declare global {
   const setResponseHeaders: typeof import('../../node_modules/h3').setResponseHeaders
   const setResponseStatus: typeof import('../../node_modules/h3').setResponseStatus
   const splitCookiesString: typeof import('../../node_modules/h3').splitCookiesString
-  const testConnection: typeof import('../../server/utils/database').testConnection
   const toEventHandler: typeof import('../../node_modules/h3').toEventHandler
   const toNodeListener: typeof import('../../node_modules/h3').toNodeListener
   const toPlainHandler: typeof import('../../node_modules/h3').toPlainHandler
@@ -149,4 +147,3 @@ export { defineTask, runTask } from 'nitropack/runtime/internal/task';
 export { defineNitroErrorHandler } from 'nitropack/runtime/internal/error/utils';
 export { buildAssetsURL as __buildAssetsURL, publicAssetsURL as __publicAssetsURL } from '/Users/mac/Desktop/siteweb/1xlite_17342.bar/node_modules/@nuxt/nitro-server/dist/runtime/utils/paths';
 export { defineAppConfig } from '/Users/mac/Desktop/siteweb/1xlite_17342.bar/node_modules/@nuxt/nitro-server/dist/runtime/utils/config';
-export { getDatabaseConnection, testConnection } from '/Users/mac/Desktop/siteweb/1xlite_17342.bar/server/utils/database';

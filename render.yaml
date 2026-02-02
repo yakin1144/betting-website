@@ -2,13 +2,12 @@ services:
   - type: web
     name: betting-website
     env: node
-    buildCommand: npm install && npm run build
-    startCommand: npm run start
-    staticPublishDir: .output/public
+    buildCommand: |
+      npm install
+      npm run build
+    startCommand: npx nuxi preview --port $PORT
     envVars:
       - key: NODE_ENV
         value: production
-      - key: NUXT_HOST
-        value: 0.0.0.0
-      - key: NUXT_PORT
+      - key: PORT
         value: 3000

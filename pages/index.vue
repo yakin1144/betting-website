@@ -1,14 +1,14 @@
 <template>
   <div>
-    <h1>Welcome to Your Betting Website</h1>
-    <p>This is a Nuxt.js application.</p>
+    <BettingSite />
   </div>
 </template>
 
 <script setup>
-// Component logic here
+// Import the original betting site component
+import BettingSite from '~/components/BettingSite.vue'
 </script>
 
 <style>
-/* Component styles here */
+/* Styles are loaded from the original site */
 </style>

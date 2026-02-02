@@ -13,6 +13,18 @@ import { NuxtModule, ModuleDependencyMeta } from '@nuxt/schema'
 
    mongodbUri: string,
 
+   postgresUrl: string,
+
+   postgresUser: string,
+
+   postgresPassword: string,
+
+   postgresHost: string,
+
+   postgresPort: string,
+
+   postgresDatabase: string,
+
    nitro: {
       envPrefix: string,
    },

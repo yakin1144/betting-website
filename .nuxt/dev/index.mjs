@@ -5,6 +5,7 @@ import { resolve, dirname, join } from 'node:path';
 import nodeCrypto from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
 import { escapeHtml } from 'file:///Users/mac/Desktop/siteweb/1xlite_17342.bar/node_modules/@vue/shared/dist/shared.cjs.js';
+import postgres from 'file:///Users/mac/Desktop/siteweb/1xlite_17342.bar/node_modules/postgres/src/index.js';
 import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file:///Users/mac/Desktop/siteweb/1xlite_17342.bar/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, decodePath, withLeadingSlash, withoutTrailingSlash, joinRelativeURL } from 'file:///Users/mac/Desktop/siteweb/1xlite_17342.bar/node_modules/ufo/dist/index.mjs';
 import { renderToString } from 'file:///Users/mac/Desktop/siteweb/1xlite_17342.bar/node_modules/vue/server-renderer/index.mjs';
@@ -650,7 +651,13 @@ const _inlineRuntimeConfig = {
   "public": {
     "apiBase": "/api"
   },
-  "mongodbUri": ""
+  "mongodbUri": "your-mongodb-connection-string",
+  "postgresUrl": "postgresql://yakin:FldHcf75GTambWKRorCXdJ8lPwsKd2hO@dpg-d60dc9h4tr6s73bbdr9g-a.frankfurt-postgres.render.com/yakin",
+  "postgresUser": "yakin",
+  "postgresPassword": "FldHcf75GTambWKRorCXdJ8lPwsKd2hO",
+  "postgresHost": "dpg-d60dc9h4tr6s73bbdr9g-a.frankfurt-postgres.render.com",
+  "postgresPort": "5432",
+  "postgresDatabase": "yakin"
 };
 const envOptions = {
   prefix: "NITRO_",
@@ -2586,10 +2593,12 @@ async function getIslandContext(event) {
 	return ctx;
 }
 
+const _lazy_8OIzqF = () => Promise.resolve().then(function () { return testDb_get$1; });
 const _lazy_eqYd8U = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
   { route: '', handler: _gRMUCJ, lazy: false, middleware: true, method: undefined },
+  { route: '/api/test-db', handler: _lazy_8OIzqF, lazy: true, middleware: false, method: "get" },
   { route: '/__nuxt_error', handler: _lazy_eqYd8U, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_island/**', handler: _SxA8c9, lazy: false, middleware: false, method: undefined },
   { route: '/**', handler: _lazy_eqYd8U, lazy: true, middleware: false, method: undefined }
@@ -2937,6 +2946,63 @@ const styles = {};
 const styles$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
   default: styles
+}, Symbol.toStringTag, { value: 'Module' }));
+
+let sql;
+function getDatabaseConnection() {
+  if (!sql) {
+    sql = postgres(process.env.POSTGRES_URL || {
+      host: process.env.POSTGRES_HOST || "dpg-d60dc9h4tr6s73bbdr9g-a.frankfurt-postgres.render.com",
+      port: process.env.POSTGRES_PORT || 5432,
+      database: process.env.POSTGRES_DATABASE || "yakin",
+      username: process.env.POSTGRES_USER || "yakin",
+      password: process.env.POSTGRES_PASSWORD || "FldHcf75GTambWKRorCXdJ8lPwsKd2hO",
+      ssl: "require"
+    });
+  }
+  return sql;
+}
+async function testConnection() {
+  try {
+    const sql2 = getDatabaseConnection();
+    const result = await sql2`SELECT NOW()`;
+    console.log("Database connection successful:", result);
+    return true;
+  } catch (error) {
+    console.error("Database connection failed:", error);
+    return false;
+  }
+}
+
+const testDb_get = defineEventHandler(async (event) => {
+  try {
+    const isConnected = await testConnection();
+    if (isConnected) {
+      return {
+        status: "success",
+        message: "Database connection established",
+        timestamp: (/* @__PURE__ */ new Date()).toISOString()
+      };
+    } else {
+      return {
+        status: "error",
+        message: "Database connection failed",
+        timestamp: (/* @__PURE__ */ new Date()).toISOString()
+      };
+    }
+  } catch (error) {
+    return {
+      status: "error",
+      message: "Database test failed",
+      error: error.message,
+      timestamp: (/* @__PURE__ */ new Date()).toISOString()
+    };
+  }
+});
+
+const testDb_get$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: testDb_get
 }, Symbol.toStringTag, { value: 'Module' }));
 
 function renderPayloadResponse(ssrContext) {

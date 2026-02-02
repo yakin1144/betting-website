@@ -23,6 +23,12 @@ export default defineNuxtConfig({
   runtimeConfig: {
     // Private keys are only available on the server
     mongodbUri: process.env.MONGODB_URI,
+    postgresUrl: process.env.POSTGRES_URL,
+    postgresUser: process.env.POSTGRES_USER,
+    postgresPassword: process.env.POSTGRES_PASSWORD,
+    postgresHost: process.env.POSTGRES_HOST,
+    postgresPort: process.env.POSTGRES_PORT,
+    postgresDatabase: process.env.POSTGRES_DATABASE,
     
     // Public keys are also exposed to the client
     public: {

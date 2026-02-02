@@ -4,12 +4,11 @@ services:
     env: node
     buildCommand: |
       npm install
-      npm run build
-    startCommand: npm start
+      npm run generate
+    startCommand: |
+      cd .output/public && python3 -m http.server $PORT
     envVars:
       - key: NODE_ENV
         value: production
-      - key: HOST
-        value: 0.0.0.0
       - key: PORT
         value: $PORT

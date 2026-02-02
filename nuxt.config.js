@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  // Disable SSR to properly load external content
+  // Disable SSR for static site
   ssr: false,
   
   // App configuration
@@ -9,9 +9,9 @@ export default defineNuxtConfig({
     cdnURL: process.env.NUXT_APP_CDN_URL
   },
   
-  // Build configuration for server deployment
+  // Build configuration for static deployment
   nitro: {
-    preset: 'node-server'
+    preset: 'static'
   },
   
   // Modules

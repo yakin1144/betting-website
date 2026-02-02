@@ -5,9 +5,11 @@ services:
     buildCommand: |
       npm install
       npm run build
-    startCommand: npx nuxi preview --port $PORT
+    startCommand: npm start
     envVars:
       - key: NODE_ENV
         value: production
+      - key: HOST
+        value: 0.0.0.0
       - key: PORT
-        value: 3000
+        value: $PORT

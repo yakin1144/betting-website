@@ -9,9 +9,9 @@ export default defineNuxtConfig({
     cdnURL: process.env.NUXT_APP_CDN_URL
   },
   
-  // Build configuration for static deployment
+  // Build configuration for server deployment
   nitro: {
-    preset: 'static'
+    preset: 'node-server'
   },
   
   // Modules

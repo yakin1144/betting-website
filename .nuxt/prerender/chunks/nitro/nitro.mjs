@@ -648,7 +648,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "f6b9bcbf-ad21-4798-9fff-e199faefae12",
+    "buildId": "cef07f27-e1e8-4178-98e7-f0270d24a7ec",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -678,7 +678,13 @@ const _inlineRuntimeConfig = {
   "public": {
     "apiBase": "/api"
   },
-  "mongodbUri": ""
+  "mongodbUri": "your-mongodb-connection-string",
+  "postgresUrl": "postgresql://yakin:FldHcf75GTambWKRorCXdJ8lPwsKd2hO@dpg-d60dc9h4tr6s73bbdr9g-a.frankfurt-postgres.render.com/yakin",
+  "postgresUser": "yakin",
+  "postgresPassword": "FldHcf75GTambWKRorCXdJ8lPwsKd2hO",
+  "postgresHost": "dpg-d60dc9h4tr6s73bbdr9g-a.frankfurt-postgres.render.com",
+  "postgresPort": "5432",
+  "postgresDatabase": "yakin"
 };
 const envOptions = {
   prefix: "NITRO_",
@@ -1082,10 +1088,12 @@ const _gRMUCJ = eventHandler((event) => {
 
 const _SxA8c9 = defineEventHandler(() => {});
 
+const _lazy_8OIzqF = () => import('../routes/api/test-db.get.mjs');
 const _lazy_eqYd8U = () => import('../_/renderer.mjs');
 
 const handlers = [
   { route: '', handler: _gRMUCJ, lazy: false, middleware: true, method: undefined },
+  { route: '/api/test-db', handler: _lazy_8OIzqF, lazy: true, middleware: false, method: "get" },
   { route: '/__nuxt_island/**', handler: _SxA8c9, lazy: false, middleware: false, method: undefined },
   { route: '/**', handler: _lazy_eqYd8U, lazy: true, middleware: false, method: undefined }
 ];
